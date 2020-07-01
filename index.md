@@ -1,4 +1,5 @@
 # About me
+![banner](img/banner.jpg)   
 Hello, My name is Yannan Zhang. I would like to call myself an electronic enthusiast
 
 # Education
