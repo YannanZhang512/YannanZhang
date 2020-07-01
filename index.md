@@ -18,9 +18,13 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 # English Certificate
 
 # Experience
-+ **Intel Inc.**   
-Internship   
++ **Intel Mobile Communications Technology (Beijing) Ltd.**   
+Internship - Software Testing  
 October 2016 - December 2016, Beijing, China   
+1. Migrating former software framework into new system.
+2. Developing baseband modem (XMM7560) software.
+3. Debugging and Testing.
+
 
 # Projects
 I have written something new.
