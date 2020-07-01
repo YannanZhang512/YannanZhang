@@ -10,7 +10,7 @@ Sept. 2017 - July 2020, **M.S. in Electronic Science and Technology**
 *First Class Scholarship, 2017*   
 
 + ***Beijing University of Posts and Telecommunications***  
-Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology** 
+Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**   
 *Qualcomm Scholarship, 2016*   
 *First Prize in Beijing Undergraduate Electronics Design Contest, 2016*   
 
@@ -32,7 +32,13 @@ October 2016 - December 2016, Beijing, China
 
 
 # Projects
-I have written something new.
++ [Bandgap Reference]()
++ [Low Drop Voltage Regulator]()
++ [Fully Differential Amplifier]()
++ [50MSPS 8 bit Asynchronous SAR ADC]()
++ [500MHz Bandwidth 80dB Dynamic Rage AM Receiver]()
++ [LMH6554 2.8-GHz Ultra Linear Fully Differential Amplifier Demonstration Board]()
++ [Low Harmonic Distortion PCB for Operational Amplifier]()
 
 # My Video Tutorial
 Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
