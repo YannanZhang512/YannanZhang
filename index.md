@@ -3,10 +3,10 @@
 Hello, My name is Yannan Zhang. I would like to call myself an electronic enthusiast
 
 # Education
-***Beijing University of Posts and Telecommunications***   
++ ***Beijing University of Posts and Telecommunications***   
 Sept. 2017 - July 2020, **M.S. in Electronic Science and Technology**   
 
-***Beijing University of Posts and Telecommunications***  
++ ***Beijing University of Posts and Telecommunications***  
 Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology** 
 
 # Academic Achievement
@@ -18,7 +18,9 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 # English Certificate
 
 # Experience
-I have written something new.
++ **Intel Inc.**   
+Internship   
+October 2016 - December 2016, Beijing, China   
 
 # Projects
 I have written something new.
