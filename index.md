@@ -31,7 +31,7 @@ I have written something new.
 
 # My Video Tutorial
 Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
-Below are some video tutorials that I recorded. These videos explain knowledge in a more practical way, not a academic way, which can help starters to enter the world quickly.
+**Below are some video tutorials that I recorded. These videos explain knowledge in a more practical way, not a academic way, which can help starters to enter the world quickly.**
 
 + [An introduction to the basic concept and usage of Digital to Analog Converter.]()   
 + [An introduction to the basic concept and usage of Opeartional Amplifier.]()   
