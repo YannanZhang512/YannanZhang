@@ -5,9 +5,14 @@ Hello, My name is Yannan Zhang. I would like to call myself an electronic enthus
 # Education
 + ***Beijing University of Posts and Telecommunications***   
 Sept. 2017 - July 2020, **M.S. in Electronic Science and Technology**   
+*First Class Scholarship, 2019*
+*First Class Scholarship, 2018*
+*First Class Scholarship, 2017*
 
 + ***Beijing University of Posts and Telecommunications***  
 Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology** 
+*Qualcomm Scholarship, 2016*
+*First Prize in Beijing Undergraduate Electronics Design Contest, 2016*
 
 # Academic Achievement
 [1] [K. Han, **Y. Zhang** and Z. Deng, "A Simulation Study of Gate-All-Around Nanowire Transistor With a Core-Substrate," in IEEE Access, vol. 8, pp. 62181-62190, 2020, doi: 10.1109/ACCESS.2020.2983724.](https://ieeexplore.ieee.org/document/9049338)   
