@@ -32,7 +32,7 @@ October 2016 - December 2016, Beijing, China
 
 
 # Projects
-+ [Bandgap Reference](pages/111.md)
++ [Bandgap Reference]()
 + [Low Drop Voltage Regulator]()
 + [Fully Differential Amplifier]()
 + [50MSPS 8 bit Asynchronous SAR ADC]()
@@ -49,7 +49,7 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 + [Programming TI's MSP430G2553 launchpad using C language.]()   
 
 # My Antique Electronic Collection
-
+[See My Collections](pages/collections.md)
 
 
 ### Contact
