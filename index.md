@@ -24,7 +24,7 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 
 # Experience
 + **Beijing University of Posts and Telecommunications**     
-December 2016 - September 2017, Beijing, China   
+December 2017 - May 2018, Beijing, China   
 *A member of National 863 Program in “14 nm Technology Generation Silicon-Based Novel Devices and Key Crafts Research of China”*   
 
 + **Beijing University of Posts and Telecommunications**   
