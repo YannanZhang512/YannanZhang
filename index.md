@@ -1,6 +1,6 @@
 # About me
 ![banner](img/banner.jpg)   
-Hello, My name is Yannan Zhang. I would like to call myself an electronic enthusiast
+Hello, My name is Yannan Zhang. I'm from China. I become interested in Electronics when I was a small child. My grandfather was an electrician when I was young. He stored all his electronic components in a drawer. One day, I found all that shiny small things and smashed them using a hammer. Since then, my fate was destined. 
 
 # Education
 + ***Beijing University of Posts and Telecommunications***   
@@ -14,7 +14,7 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 *Qualcomm Scholarship, 2016*   
 *First Prize in Beijing Undergraduate Electronics Design Contest, 2016*   
 
-# Academic Achievement
+# Academic Achievement & Publications
 [1] [K. Han, **Y. Zhang** and Z. Deng, "A Simulation Study of Gate-All-Around Nanowire Transistor With a Core-Substrate," in IEEE Access, vol. 8, pp. 62181-62190, 2020, doi: 10.1109/ACCESS.2020.2983724.](https://ieeexplore.ieee.org/document/9049338)   
 [2] [**Zhang, Y.**; Han, K.; Li, A.J. A Simulation Study of a Gate-All-Around Nanowire Transistor with a Core–Insulator. Micromachines 2020, 11, 223.](https://www.mdpi.com/2072-666X/11/2/223?type=check_update)   
 *Note: Actually, I'm the first author of [1].*
