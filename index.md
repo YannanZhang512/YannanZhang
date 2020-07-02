@@ -23,8 +23,17 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 # English Certificate
 
 # Experience
++ **Beijing University of Posts and Telecommunications**     
+December 2016 - September 2017, Beijing, China   
+*A member of National 863 Program in “14 nm Technology Generation Silicon-Based Novel Devices and Key Crafts Research of China”*   
+
++ **Beijing University of Posts and Telecommunications**   
+Teaching Assistant  
+December 2016 - September 2017, Beijing, China   
+*Training 45 undergraduate students to attend “National Undergraduate Electronics Design Contest”*   
+
 + **Intel Mobile Communications Technology (Beijing) Ltd.**   
-Internship - Software Testing  
+Internship - Embeded System Testing  
 October 2016 - December 2016, Beijing, China   
 *Migrating former software framework into new system.*   
 *Developing baseband modem (XMM7560) software.*   
