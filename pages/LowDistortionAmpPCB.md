@@ -49,7 +49,7 @@ In order to find out if the feedback signal path is the culprit, I arranged the 
 ## Input frequency = 10M, input power = 3dBm   
 
 + ***Waveform***   
-![10M_waveform](img/10m_waveform_resized.jpg)   
+![10M_waveform](img/10m_waveform_combined.png)   
 
 ## Input frequency = 50M, input power = 3dBm
 
