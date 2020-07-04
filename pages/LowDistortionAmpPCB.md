@@ -48,75 +48,15 @@ In order to find out if the feedback signal path is the culprit, I arranged the 
 
 ## Input frequency = 10M, input power = 3dBm   
 
-+ ***The first layout***
-
-   ***Waveform***   
-   ![10M_first_layout_waveform](img/10m_1_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![10M_first_layout_spectrum](img/10m_1_layout_spec.png)   
-
-+ ***The second layout***   
-
-   ***Waveform***   
-   ![10M_second_layout_waveform](img/10m_2_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![10M_second_layout_spectrum](img/10m_2_layout_spec.png)   
-
-+ ***The third layout***   
-
-   ***Waveform***   
-   ![10M_third_layout_waveform](img/10m_3_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![10M_third_layout_spectrum](img/10m_3_layout_spec.png)   
-
-+ ***The fourth layout***   
-
-   ***Waveform***   
-   ![10M_fourth_layout_waveform](img/10m_4_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![10M_fourth_layout_spectrum](img/10m_4_layout_spec.png)   
++ ***Waveform***   
+![10M_waveform](img/10m_waveform_resized.jpg)   
 
 ## Input frequency = 50M, input power = 3dBm
 
-+ ***The first layout***   
-
-   ***Waveform***   
-   ![50M_first_layout_waveform](img/50m_1_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![50M_first_layout_spectrum](img/50m_1_layout_spec.png)   
-
-+ ***The second layout***   
-
-   ***Waveform***   
-   ![50M_second_layout_waveform](img/50m_2_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![50M_second_layout_spectrum](img/50m_2_layout_spec.png)   
-
-+ ***The third layout***   
-
-   ***Waveform***   
-   ![50M_third_layout_waveform](img/50m_3_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![50M_third_layout_spectrum](img/50m_3_layout_spec.png)   
-
-+ ***The fourth layout***   
-
-   ***Waveform***   
-   ![50M_fourth_layout_waveform](img/50m_4_layout_waveform.png)   
-
-   ***Spectrum***   
-   ![50M_fourth_layout_spectrum](img/50m_4_layout_spec.png)   
 
 # Conclusion      
 
-**The 4th layout is the best layout, that means, the feedback signal path and the input signal path should end at the same point. **    
+**The 4th layout is the best layout, that means, the feedback signal path and the input signal path should end at the same point.**    
 
 # The final version of layout   
 
