@@ -84,11 +84,11 @@ While the real testing results in terms of different layouts are shown below:
 ![Final_Layout_3D](img/finallayout3d.jpg)  
 
 # What I have learned from this project.
-**1. Usually, the decoupling capacitor doesn't have that much of an impact on the circuit performance compared with layout as long as the decoupling capacitor is properly placed.**    
-**2. The number of layer of a PCB doesn't have that much of an impact on the circuit performance than I have expected. If the circuit is not too complex and was properly routed, the two layers and four layers pcb almost make no difference.**   
-**3. The feedback signal path and the input signal path should end at the same point in order to minimize the distortion.**   
++ **Usually, the decoupling capacitor doesn't have that much of an impact on the circuit performance compared with layout as long as the decoupling capacitor is properly placed.**    
++ **The number of layer of a PCB doesn't have that much of an impact on the circuit performance than I have expected. If the circuit is not too complex and was properly routed, the two layers and four layers pcb almost make no difference.**   
++ **The feedback signal path and the input signal path should end at the same point in order to minimize the distortion.**   
 
 
 # Unresolved problems   
-***1. Why the feedback signal path can badly affect the performance of the whole circuit? There must be some theoratical explanation.***   
-***2. Why the harmonic distortion of an amplifier can increase with the input signal frequency?***   
++ ***Why the feedback signal path can badly affect the performance of the whole circuit? There must be some theoratical explanation.***   
++ ***Why the harmonic distortion of an amplifier can increase with the input signal frequency?***   
