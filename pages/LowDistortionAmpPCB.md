@@ -50,8 +50,14 @@ In order to find out if the feedback signal path is the culprit, I arranged the 
 
 + ***Waveform***   
 ![10M_waveform](img/10m_waveform_combined.png)   
++ ***Spectrum***   
+![10M_spectrum](img/10m_spectrum_combined.png)  
 
 ## Input frequency = 50M, input power = 3dBm
++ ***Waveform***   
+![50M_waveform](img/50m_waveform_combined.png)   
++ ***Spectrum***   
+![50M_spectrum](img/50m_spectrum_combined.png)  
 
 
 # Conclusion      
