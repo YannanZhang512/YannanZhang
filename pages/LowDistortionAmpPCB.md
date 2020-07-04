@@ -51,13 +51,29 @@ In order to find out if the feedback signal path is the culprit, I arranged the 
 + ***Waveform***   
 ![10M_waveform](img/10m_waveform_combined.png)   
 + ***Spectrum***   
-![10M_spectrum](img/10m_spectrum_combined.png)  
+![10M_spectrum](img/10m_spectrum_combined.png)   
++ ***Data***
+*The Unit is dBm.*
+| Layout | HD1  |  HD2  |  HD3  |  HD4  |  HD5  |  HD6  |  HD7  |  HD8  |  HD9  | HD10  |
+| :----: | :--: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| first  | 16.5 | -33.8 | -36.0 | -35.0 | -33.8 | -37.0 | -38.0 | -39.5 | -40.0 | -41.5 |
+| second | 16.5 | -33.6 | -36.0 | -37.0 | -35.0 | -38.0 | -44.0 | -39.0 | -40.5 | -40.0 |
+| third  | 16.5 | -37.0 | -38.5 | -41.0 | -41.5 |   0   |   0   |   0   | -45.0 |   0   |
+| fourth | 16.5 | -40.0 | -38.5 | -45.0 | -45.2 |   0   |   0   |   0   |   0   |   0   |
 
 ## Input frequency = 50M, input power = 3dBm
 + ***Waveform***   
 ![50M_waveform](img/50m_waveform_combined.png)   
 + ***Spectrum***   
 ![50M_spectrum](img/50m_spectrum_combined.png)  
++ ***Data***
+*The Unit is dBm.*
+| Layout | HD1  |  HD2  |  HD3  |
+| :----: | :--: | :---: | :---: |
+| first  | 16.4 | -18.3 | -21.4 |
+| second | 16.4 | -20.0 | -22.6 |
+| third  | 16.4 | -25.6 | -21.8 |
+| fourth | 16.4 | -29.6 | -21.0 |
 
 
 # Conclusion      
