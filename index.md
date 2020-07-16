@@ -54,7 +54,7 @@ October 2016 - December 2016, Beijing, China
 
 ### CMOS Devices
 
-### Embeded System Softeare
+### Embeded System Software
 
 # My Video Tutorial
 Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
@@ -64,8 +64,11 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 + [An introduction to the basic concept and usage of Opeartional Amplifier.]()   
 + [Programming TI's MSP430G2553 launchpad using C language.]()   
 
-# My Antique Electronic Collection
-[See My Collections](pages/collections.md)
+# My Electronic Collection    
+I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
+[See My Antique Electronic Collections](pages/collections.md)   
+[See My Chip Collection](pages/chipscollection.md)   
+[See Part of My Work (I store only a small part of my work, I disposed of most of them.)](pages/partofwork.md)   
 
 
 ### Contact
