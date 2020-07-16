@@ -76,10 +76,10 @@ While the real testing results in terms of different layouts are shown below:
 ## Comparision between my pcb and official demonstration pcb   
 [TI's official demonstration pcb](https://www.ti.com.cn/tool/cn/DEM-OPA-SO-1B) helps designers evaluate the operation and performance of TI's single high speed, wideband operational amplifiers. Since the official pcb can realize the full potential of their product, it's reasonable to compare my pcb's performance with official one.  
 ![official_my](img/official_my.jpg)
-The official demonstration pcb testing results:   
++ **The official demonstration pcb testing results:**   
 **The input signal power is -10dBm, RF=487, RG=24.9, the unit of testing results are dBm**   
 ![official_pcb](img/official_pcb.jpg)   
-My pcb testing results:   
++ **My pcb testing results:**   
 ![my_pcb](img/my_pcb.jpg)   
 ***It can be found that at some particula frequency, the official pcb perform slightly better than my pcb, but my pcb has a smoother frequency response than that of official one.***
 
