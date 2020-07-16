@@ -101,3 +101,6 @@ While the real testing results in terms of different layouts are shown below:
 # Unresolved problems   
 + ***Why the feedback signal path can badly affect the performance of the whole circuit? There must be some theoratical explanation.***   
 + ***Why the harmonic distortion of an amplifier can increase with the input signal frequency?***   
+
+# Home Page
+[Return to Home Page](https://yannanzhang512.github.io/YannanZhang/)
