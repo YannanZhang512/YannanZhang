@@ -1,6 +1,7 @@
 # My Antique Electronic Collection
 
 ## Instruments
+OOps!   
 
 ## Integrated Circuits
 + **ADI's HAS-1202A**   
@@ -8,7 +9,11 @@
 + **5G23A and FC3B**   
 ![5g23a_fc3b](img/5g23a_fc3b.jpg) 
 
-## Vacuum Tubes
+## Vacuum Tubes   
++ **FD-422**   
+![fd-422](img/FD-422.jpg)  
++ **FU-29**   
+![fu-29](img/FU-29.jpg)   
 + **6P12P**   
 ![6p12p](img/6p12p.jpg)   
 + **6Z19**   
@@ -17,6 +22,8 @@
 ![6u1](img/6u1.jpg)   
 + **6N3**   
 ![6n3](img/6n3.jpg)   
++ **6N16B**   
+![6n16b](img/6N16B.jpg) 
 + **6J1**   
 ![6j1](img/6j1.jpg)   
 + **6P9P**   
@@ -44,7 +51,10 @@
 ![3dg142c_inner](img/3dg142c_inner.jpg)   
 
 ## Resistors
+OOps!   
 
 ## Capacitors
+OOps!   
 
 ## Inductors
+OOps!   
