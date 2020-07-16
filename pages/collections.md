@@ -3,6 +3,8 @@
 ## Instruments
 
 ## Integrated Circuits
++ **ADI's HAS-1202A**   
+![HAS-1202A](img/HAS-1202A.jpg)  
 + **5G23A and FC3B**   
 ![5g23a_fc3b](img/5g23a_fc3b.jpg) 
 
