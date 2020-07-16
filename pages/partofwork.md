@@ -8,19 +8,19 @@
 ![Signal_Generator_2](img/signal_generator_2.jpg)  
 
 ## LC Meter   
-![LC Meter](img/LC Meter.jpg)     
+![LC_Meter](img/LC_Meter.jpg)     
 
 ## Resistance Meter  
-![Resistance Meter](img/Resistance Meter.jpg)     
+![Resistance_Meter](img/Resistance_Meter.jpg)     
 
 ## Network Analyzer 1  
-![Network Analyzer 1](img/Network Analyzer 1.jpg)    
+![Network_Analyzer_1](img/Network_Analyzer_1.jpg)    
 
 ## Network Analyzer 2  
-![Network Analyzer 2](img/Network Analyzer 2.jpg)   
+![Network_Analyzer_2](img/Network_Analyzer_2.jpg)   
 
 ## Dual Power Supply Module   
-![Dual Power Supply Module](img/Dual Power Supply Module.jpg)     
+![Dual_Power_Supply_Module](img/Dual_Power_Supply_Module.jpg)     
 
 ## Others   
 ![Work_Part_1](img/work_part1.jpg)  
