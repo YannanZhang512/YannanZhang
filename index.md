@@ -67,7 +67,7 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 # My Electronic Collection    
 I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
 [See My Antique Electronic Collections](pages/collections.md)   
-[See My Chip Collection](pages/chipscollection.md)   
+[See My Chip Collection](pages/chipcollections.md)   
 [See Part of My Work (I store only a small part of my work, I disposed of most of them.)](pages/partofwork.md)   
 
 
