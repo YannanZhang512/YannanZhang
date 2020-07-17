@@ -19,9 +19,6 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 [2] [**Zhang, Y.**; Han, K.; Li, A.J. A Simulation Study of a Gate-All-Around Nanowire Transistor with a Core–Insulator. Micromachines 2020, 11, 223.](https://www.mdpi.com/2072-666X/11/2/223?type=check_update)   
 *Note: Actually, I'm the first author of [1].*
 
-
-# English Certificate
-
 # Experience
 + **Beijing University of Posts and Telecommunications**     
 December 2017 - May 2018, Beijing, China   
@@ -53,8 +50,10 @@ October 2016 - December 2016, Beijing, China
 + [Low Harmonic Distortion PCB for Operational Amplifier](pages/LowDistortionAmpPCB.md)
 
 ### CMOS Devices
++ [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa.md)
++ [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa.md)
 
-### Embeded System Software
+### Embeded System
 
 # My Video Tutorial
 Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
