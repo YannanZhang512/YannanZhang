@@ -35,10 +35,47 @@ The good controllability of CSGAA can be explained by examining its on-state ele
 
 The results of subthreshold swing, switching ratio and DIBL testify the superior performance and controllability of gate to that of GAA. Although CSGAA structure has a slightly low on-state current compared to the GAA structure, its off-state current is extremely low. When using multi-wire configuration, its advantage can be clearly seen, because CSGAA structure can achieve a large on-state current by simply increase its channel thickness without much performance degradation. CSGAA structure is less sensitive to scaling and can achieve more drive current by increasing channel thickness, while maintaining relatively stable performance.   
 
-## Parasitic capacitance and RF performance
+## Parasitic capacitance and RF performance  
+### Parasitic capacitance
+Because of the presence of Core-Substrate, the parasitic capacitance of CSGAA is expected to be higher than that of GAA. The schematic of various capacitance components of GAA and CSGAA can be clearly seen from figure below.   
+![GAA_CSGAA_Capacitor](img/GAA_CSGAA_Capacitor.jpg)  
 
-## Impact of Core-Substrate diameter on device performance
+Below shows the Cgg dependence on channel thickness of two structure, the Cgg makes almost no difference between CSGAA and GAA, the maximal gate capacitance increment of CSGAA is only 5% of that of GAA. We also investigated the impact of Core-Substrate diameter on gate capacitance. The simulated results show that gate capacitance increases linearly when the diameter of Core-Substrate increases linearly.   
+![Cgg_Tch_Ls](img/Cgg_Tch_Ls.jpg)  
 
-## Impact of Core-Substrate’s high electric field effect
+We use CMOS inverter circuit to further examine the impact of gate capacitance increment of CSGAA on device performance. GAA-based inverter and CSGAA-based inverter are used to evaluated their pulse response, input pulse is provided by voltage source with 40ps period and 1ps rising and falling time, supply voltage is 1.5V. The transient responses of GAA-based inverter and CSGAA-based inverter for an input signal pulse are shown below, and (b), (c) are the detailed figure of transient response. The CSGAA-based inverter shows no more than 2ps propagation delay due to higher intrinsic gate capacitance.   
+![Switching](img/Switching.jpg)  
+
+### RF performance   
+Research into Analog/RF performance of nanowire transistors becomes more and more important since increased interest of combining analog part and digital part into a single IC. The main figure of merits (FoMs) of Analog/RF performance are transconductance (gm), output resistance (ro), intrinsic gain(gm/gds), transition frequency (ft) and transconductance efficiency (gm/Id).   
+
+Figure shown below illustrates transconductance (gm) and output resistance (ro) for CSGAA and GAA with different nanowire diameters respectively. From (a) we observe that the transconductance of GAA is higher than that of CSGAA by about 13%. Both GAA and CSGAA increase their transconductance when nanowire diameter increases. And from (b) we observe that the output resistance of CSGAA is higher than that of GAA by about 25%. Since higher output resistance represents larger Early voltage, thereby a better channel length modulation effect and better gate controllability.   
+![gm_ro](img/gm_ro.jpg)   
+
+Intrinsic gain is the maximal possible gain of a single transistor and higher intrinsic gain is favorable for lower noise figure, lower power dissipation and reduced system complexity. The intrinsic gain is obtained by ac device simulation with the TCAD tool, as shown below. Benefit from larger output resistance, the intrinsic gain of CSGAA is larger than that of GAA by about 2 dB, although the transconductance of CSGAA is inferior to that of GAA. The intrinsic gain of GAA and CSGAA decrease with increasing nanowire diameter, because increased nanowire means thicker channel which lead to lower transconductance and output resistance.   
+The transition frequency are extract when h21 equals 1 and is shown below. Increasing nanowire diameter means higher transition frequency, this is because the transconductance is increased when increasing nanowire diameter. Due to relatively higher transconductance, the transition frequency of GAA is higher than its opponent by about 14.5%.   
+![gain_ft](img/gain_ft.jpg)  
+
+The transconductance efficiency of CSGAA and GAA is shown below. Higher transconductance efficiency means higher transconductance at a certain drain current. Although GAA has a higher transconductance, but the on-state current of GAA is also higher than that of CSGAA. In fact, the CSGAA's transconductance efficiency is larger than that of GAA by an average of 5%.   
+![gm_Id](img/gm_Id.jpg)  
+
+## Impact of Core-Substrate diameter on device performance   
+The distinctive feature of CSGAA is its Core-Substrate, thus, it's necessary to investigate the impact of Core-Substrate diameter on device performance. We conducted another experiment by setting the Core-Substrate to 7nm, and the simulation results are shown below. 
+![All_5nm](img/All_5nm.jpg)  
+When other dimension remains the same, we can naturally expect that as the Core-Substrate diameter increases, the performance of two structure will degenerate since larger overall diameter of nanowire leads to worse gate controllability. And our expectations are proved in the simulation results. Due to the poor gate controllability of GAA at such large diameter, the off-state current of GAA is about 10^4 times larger than that of CSGAA which has a 7nm Core-Substrate diameter when channel thickness is 9nm. Besides, the subthreshold swing of GAA is never lower than 110mV/dec when DCS=7nm, which is totally unacceptable. And the switching ratio of GAA degrades to a low level of no more than  10^3. Contrary to the GAA, although CSGAA also shows performance degradation, it's insignificant. From the results, it's obvious that the off-state current, subthreshold swing and switching ratio remain fairly stable no matter how much the diameter of Core-Substrate is. Although the diameter of Core-Substrate is changed, the performance of CSGAA is always excellent, which is another convincing evidence of its superior gate controllability.   
+When we increase the Core-Substrate diameter, the transconductance as well as output resistance of the device also increase, as shown below. The increase of gm and ro lead to higher intrinsic gain. Although the device's transconductance increases with Core-Substrate diameter, the gate capacitance also increases with Core-Substrate diameter, which results in a degradation in transition frequency. Finally, the transconductance efficiency almost remain the same because the transconductance and on-state current increase simultaneously.    
+![gm_ro_dcs](img/gm_ro_dcs.jpg)  
+![gain_ft_dcs](img/gain_ft_dcs.jpg)  
+![gm_id_dcs](img/gm_id_dcs.jpg)  
+
+## Impact of Core-Substrate’s high electric field effect   
+The CSGAA has highly doped N region and P region which are in close proximity, the corner between Core-Substrate and Source or Core-Substrate between Drain can result in high electric field which lead to reliability problems. In order to reduce the electric field, we shorten the Core-Substrate's length by LP to provide a protection length. (c) shows the electric field of CSGAA and (d) shows the electric field of an improved version of CSGAA. Due to the presence of drastic doping profile and sharp corner in close proximity, the electric field of CSGAA at the areas which are shown by red circle and blue circle in (c) are high and may lead to reliability problems. When the length of Core-Substrate is reduced by $L_{P}$, as shown in (b), this improved CSGAA can shows better reliability since the electric field is considerably lowered, as shown in (d).   
+![electric_field](img/electric_field.jpg) 
+Since it's easier to fabricate a symmetrical structure, so the improved version of CSGAA , which is shown in (b), can be further improved by extend the insulator of source side into Core-Substrate by the same LP, as shown below. We have also studied the impact of LP on the performance of CSGAA, the results are shown in Table 3. When LP increases, the Ioff increases simultaneously, as a result, the Ion/Ioff (also known as switching ratio) decreases. In other words, longer LP causes more performance degradation. In this experiment, a 1nm LP is reasonable, since it greatly reduce the electric field but will not cause much performance degradation.  
+![electric_field_sd_extension](img/electric_field_sd_extension.jpg)  
+![table3](img/table3.png) 
+
+# Conclusion
+We have studied the device performance of our proposed CSGAA nanowire using 3D TCAD simulation. Due to CSGAA's excellent gate electrostatic controllability enabled by Core-Substrate, it shows high saturation current, low off-state  current, low subthreshold swing and high switching ratio. CSGAA structure has higher intrinsic gain, output resistance and transconductance efficiency compared to conventional GAA structure, making it a suitable device for analog signal processing. Most importantly, its performances are insensitive to the increase of channel thickness and it has a low performance degradation. Although CSGAA has larger gate capacitance compares to that of GAA due to the presence of Core-Substrate, while inverter-based switching response shows that the performance degradation is insignificant. Thus, CSGAA nanowire is a promising candidate to extend CMOS scaling road-map and future high performance and low power CMOS devices.   
 
 # Return to Homepage
