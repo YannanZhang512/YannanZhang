@@ -5,7 +5,10 @@
 
 # Design Method   
 ## Schematic of the design   
+**The Schematic of the bandgap is shown below:**   
 ![BandgapSch](img/BandgapSch.jpg)   
+**The design parameter of the bandgap is shown below:**   
+![Parameter](img/bandgapparameter.jpg)   
 
 # Simulation Results and Analysis   
 
