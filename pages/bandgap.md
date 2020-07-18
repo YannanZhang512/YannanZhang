@@ -10,6 +10,10 @@
 **The design parameter of the bandgap is shown below:**   
 ![Parameter](img/bandgapparameter.jpg)  
 
+## Setting of the quiescent current
+To satisfy the power requirement, that is, no more than 200uW power consumption, the quiescent currents are set as follow:   
+![BandgapQuiescentCurrent](img/BandgapQuiescentCurrent.jpg)  
+
 ## Calculation of the parameter
 ### Calculation of Rx
 The output voltage Vref and temperature coefficient of Vref can be expressed as follow, since R5=R3, R5'=R3', R4=R2, to simplify the equation, I denote R1=R1, R2=R2, R3=R3//R3'.   
@@ -24,7 +28,7 @@ In order to gain zero temperature coefficient, using the data provided,  the val
 Since the dc operating point of T1 and T2 are set to 10uA, and the current are described as follow:   
 ![Bandgap_CurrentEqu](img/Bandgap_CurrentEqu.jpg)   
 
-Then the value of R1 is about 5.4065k. A HRP poly resistor with 2 segments, W=2u, L=5u is 5.3525k.   
+Then the value of R1 is about 5.4065k. A HRP poly resistor with 2 segments, W=2u, L=5u is 5.3525k, and all other resistors can be determined.   
 
 
 # Simulation Results and Analysis   
@@ -41,7 +45,7 @@ From the formula, we can find that the temperature coefficient of Vbe depend on 
 ![Vbe](img/Vbe.jpg)  
 ***The temperature coefficient of Vbe can be different when different current pass through the BE junction, as shown in the results.***   
 
-+ ***The open-loop gain of operational amplifier can be affected by the dc operation point***
++ ***The open-loop gain of operational amplifier can be affected by the dc operation point***   
 
 + ***Start-up Circuitry***
 The start-up circuit should be stable and reliable, and make sure the start-up circuit can help the whole circuit build stable operating point. The start-up circuit in the bandgap is shown below, maked with red line.   
