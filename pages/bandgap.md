@@ -27,5 +27,9 @@ From the formula, we can find that the temperature coefficient of Vbe depend on 
 + ***The open-loop gain of operational amplifier can be affected by the dc operation point***
 
 + ***Start-up Circuitry***
+The start-up circuit should be stable and reliable, and make sure the start-up circuit can help the whole circuit build stable operating point. The start-up circuit in the bandgap is shown below, using red line.   
+![BandgapStartup](img/BandgapStartup.jpg)   
+The previous version of the start-up circuit is shown below (without M27). This version of start-up circuit cannot start the bandgap successfully. The detailed reasons are as follow: at first, Vref=0, so M24 and M26 pull B to the VDD - |(VGS12 + Vov12)|, since M12 is saturated.   
+![BandgapStartupPre](img/BandgapStartupPre.jpg)   
 
 # Return to Homepage   
