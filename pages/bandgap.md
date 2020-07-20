@@ -32,6 +32,16 @@ Then the value of R1 is about 5.4065k. A HRP poly resistor with 2 segments, W=2u
 
 
 # Simulation Results and Analysis   
+## The relation between Vref and Temperature
+![VoutVSTemperature](img/VoutVSTemperature.jpg)   
+From the results, we can observe that the Vout (Vref) is rather stable when temperature changes except when VDD = 5V. The Vout changes with the changing of power supply voltage. This is because when VDD changes, the open-loop gain of the amplifier also changes since the dc operating points is changing with VDD.    
+The output voltage of amplifier can be determined as follow:   
+![BandgapVampoutEqu](img/BandgapVampoutEqu.jpg)   
+**The last two terms are supposed to remain constant, so the output voltage of amplifier increases when VDD increases.**   
+The open-loop gain of the amplifier can be determined as follow:   
+When VDD increases from 3V to higher value,  
+
+
 
 # Layout   
 
