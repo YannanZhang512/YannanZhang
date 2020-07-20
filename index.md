@@ -4,13 +4,13 @@ Hello, My name is Yannan Zhang. I'm from China. I become interested in Electroni
 
 # Education
 + ***Beijing University of Posts and Telecommunications***   
-Sept. 2017 - July 2020, **M.S. in Electronic Science and Technology**   
+Sept. 2017 - Jul. 2020, **MSc in Electronic Science and Technology**   
 *First Class Scholarship, 2019*   
 *First Class Scholarship, 2018*   
 *First Class Scholarship, 2017*   
 
 + ***Beijing University of Posts and Telecommunications***  
-Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**   
+Sept. 2013 - Jul. 2017, **BEng in Electronic Science and Technology**   
 *Qualcomm Scholarship, 2016*   
 *First Prize in Beijing Undergraduate Electronics Design Contest, 2016*   
 
@@ -21,17 +21,17 @@ Sept. 2013 - July 2017, **B.S. in Electronic Science and Technology**
 
 # Experience
 + **Beijing University of Posts and Telecommunications**     
-December 2017 - May 2018, Beijing, China   
+Dec. 2017 - May 2018, Beijing, China   
 *A member of National 863 Program in “14 nm Technology Generation Silicon-Based Novel Devices and Key Crafts Research of China”*   
 
 + **Beijing University of Posts and Telecommunications**   
 Teaching Assistant  
-December 2016 - September 2017, Beijing, China   
+Dec. 2016 - Sept. 2017, Beijing, China   
 *Training 45 undergraduate students to attend “National Undergraduate Electronics Design Contest”*   
 
 + **Intel Mobile Communications Technology (Beijing) Ltd.**   
 Internship - Embeded System Testing  
-October 2016 - December 2016, Beijing, China   
+Oct. 2016 - Dec. 2016, Beijing, China   
 *Migrating former software framework into new system.*   
 *Developing baseband modem (XMM7560) software.*   
 *Debugging and Testing.*   
