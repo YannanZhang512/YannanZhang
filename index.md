@@ -70,7 +70,6 @@ I like collecting things related to electronics such as components, instruments,
 [See My Chip Collection](pages/chipcollections.md)   
 [See Part of My Work (I store only a small part of my work, I disposed of most of them.)](pages/partofwork.md)   
 
-
 ### Contact
 <font face="Bahnschrift" >E-mail: murmures@bupt.edu.cn</font>
 
