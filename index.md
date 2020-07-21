@@ -38,6 +38,12 @@ Oct. 2016 - Dec. 2016, Beijing, China
 
 
 # Projects
+### Circuit Design
++ [Bandgap Reference](pages/bandgap.md)
++ [Low Drop Voltage Regulator]()
++ [Fully Differential Amplifier]()
++ [50MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
++ [500MHz Bandwidth 54dB Input Dynamic Rage AM Receiver](pages/am.md)
 
 ### PCB Layout Projects
 + [LMH6401 DC to 4.5 GHz, Fully-Differential, Digital Variable-Gain Amplifier Demonstration Board](pages/lmh6401.md)
