@@ -55,6 +55,7 @@ Oct. 2016 - Dec. 2016, Beijing, China
 ***The two projects are under the grant of the National High Technology Research and Development Program ("863" Program,14 nm technology generation silicon-based novel devices and key crafts research,2015AA016501) of China and the Fundamental Research Funds for the Central Universities(2019PTB-016).***   
 
 ### Embeded System
++ [Tutorial code for TI's MSP430G2553 launchpad](https://github.com/YannanZhang512/MSP430G2553_TutorialCode)
 
 # My Video Tutorial
 Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
