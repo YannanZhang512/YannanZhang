@@ -61,8 +61,8 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 **Below are some video tutorials that I recorded. These videos explain knowledge in a more practical way, not a academic way, which can help starters to enter the world quickly.**
 
 + [An introduction to the basic concept and usage of Digital to Analog Converter.](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
-+ [An introduction to the basic concept and usage of Opeartional Amplifier.]()   
-+ [Programming TI's MSP430G2553 launchpad using C language.]()   
++ [An introduction to the basic concept and usage of Opeartional Amplifier.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
++ [Programming TI's MSP430G2553 launchpad using C language.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHyLQ5KSV0SdlaFIZCimGQY)   
 
 # My Electronic Collection    
 I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
