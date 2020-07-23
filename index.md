@@ -41,7 +41,7 @@ Oct. 2016 - Dec. 2016, Beijing, China
 ### Circuit Design
 + [Bandgap Reference](pages/bandgap.md)
 + [Low Drop Voltage Regulator]()
-+ [Fully Differential Amplifier]()
++ [Fully Differential Amplifier](pages/fda.md)
 + [50MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
 + [500MHz Bandwidth 54dB Input Dynamic Rage AM Receiver](pages/am.md)
 
