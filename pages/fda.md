@@ -15,6 +15,10 @@
 
 # System Design
 
+## The Devices Parameters
+![FDA_Parameter_Mx](img/FDA_Parameter_Mx.jpg)  
+![FDA_Parameter_CxRx](img/FDA_Parameter_CxRx.jpg)  
+
 # Simualtion Results and Analysis
 
 # Conclusion
