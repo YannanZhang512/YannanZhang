@@ -47,6 +47,17 @@ According to the prior analysis with the help of gm/ID method, the devices param
 
 # Simualtion Results and Analysis
 
+## DC opreating point
+![FDA_DCop](img/FDA_DCop.jpg)  
+The DC operating points of the circuit are shown above. The real operating point of the circuit has increased about 8%, this is due to the inaccuracy of the resistor as well as channel length modulation effect. The real power dissipation is 138.6uW, which still meet the requirements.    
+
+## Open-loop gain
+![FDA_openLoopFig](img/FDA_openLoopFig.png)  
+
+## Input common mode voltage
+
+## Output common mode voltage
+
 # Conclusion
 
 # Return to Homepage
