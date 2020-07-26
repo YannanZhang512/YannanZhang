@@ -54,6 +54,9 @@ The DC operating points of the circuit are shown above. The real operating point
 ## Open-loop gain
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
 
+## Step response
+![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
+
 ## Input common mode voltage
 
 ## Output common mode voltage
