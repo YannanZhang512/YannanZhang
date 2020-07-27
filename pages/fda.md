@@ -60,6 +60,7 @@ The DC operating points of the circuit are shown above. The real operating point
 ## Input common mode voltage
 
 ## Output common mode voltage
+![FDA_VoCMFig](img/FDA_VoCMFig.png)  
 
 # Conclusion
 
