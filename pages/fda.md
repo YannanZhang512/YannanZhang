@@ -58,6 +58,7 @@ The DC operating points of the circuit are shown above. The real operating point
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
 ## Input common mode voltage
+![TestingSchInputVCM](img/TestingSchInputVCM.png)  
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
 ## Output common mode voltage
