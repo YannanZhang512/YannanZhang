@@ -44,6 +44,7 @@ Oct. 2016 - Dec. 2016, Beijing, China
 + [A 15MHz, 120dB Open-Loop Gain Fully Differential Amplifier](pages/fda.md)
 + [A 50MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
 + [500MHz Bandwidth 54dB Input Dynamic Rage AM Receiver](pages/am.md)
++ [My Other Works and DIYs)](pages/partofwork.md)  
 
 ### PCB Layout Projects
 + [LMH6401 DC to 4.5 GHz, Fully-Differential, Digital Variable-Gain Amplifier Demonstration Board](pages/lmh6401.md)
@@ -68,8 +69,7 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 # My Electronic Collection    
 I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
 [See My Antique Electronic Collections](pages/collections.md)   
-[See My Chip Collection](pages/chipcollections.md)   
-[See Part of My Work (I store only a small part of my work, I disposed of most of them.)](pages/partofwork.md)   
+[See My Chip Collection](pages/chipcollections.md)    
 
 # Contact
 E-mail: murmures@bupt.edu.cn
