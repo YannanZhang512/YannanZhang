@@ -24,7 +24,7 @@
 ![SwitchingPowerSupply_3](img/SwitchingPowerSupply_3.jpg)   
 
 ### A Solar Energy Harvesting System
-***This is a solar energy harvesting system. It has a 10W solar cell panel, it can be used as a charger since it has a 5V USB output. It also has an adjustable output that can output a maximal 12V voltage. Besides, it has a overvoltage protection circuit.***
+***This is a solar energy harvesting system. It has a 10W solar cell panel, it can be used as a charger since it has a 5V USB output. It also has an adjustable output that can output a maximal 12V voltage. Besides, it has a overvoltage protection circuit.***   
 ![SolarEnergyHarvestingSystem](img/SolarEnergyHarvestingSystem.jpg)   
 
 ### A Audio Recorder
