@@ -44,7 +44,7 @@ Oct. 2016 - Dec. 2016, Beijing, China
 + [A 15MHz, 120dB Open-Loop Gain Fully Differential Amplifier](pages/fda.md)
 + [A 50MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
 + [500MHz Bandwidth 54dB Input Dynamic Rage AM Receiver](pages/am.md)
-+ [My Other Works and DIYs)](pages/partofwork.md)  
++ [My Other Works and DIYs](pages/partofwork.md)  
 
 ### PCB Layout Projects
 + [LMH6401 DC to 4.5 GHz, Fully-Differential, Digital Variable-Gain Amplifier Demonstration Board](pages/lmh6401.md)
