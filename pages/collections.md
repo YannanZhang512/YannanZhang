@@ -4,6 +4,8 @@
 OOps!   
 
 ## Integrated Circuits
++ **AD667, AD0809, AD1674, AD565**   
+![AD667](img/AD667.jpg)  
 + **ADI's HAS-1202A**   
 ![HAS-1202A](img/HAS-1202A.jpg)  
 + **5G23A and FC3B**   
