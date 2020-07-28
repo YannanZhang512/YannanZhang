@@ -53,16 +53,20 @@ The DC operating points of the circuit are shown above. The real operating point
 
 ## Open-loop gain
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
+The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.   
 
 ## Step response
+The following figure shows the step response of the FDA. The output has a 8.2V/us slew rate. Since ID8 is 2.7uA and the compensattion capacitor C1 is 606.875fF, the calculated slew rate is 8.89V/us, which is consistent with the simulation results.   
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
 ## Input common mode voltage
 ![TestingSchInputVCM](img/TestingSchInputVCM.png)  
+The input common mode voltage range is tested using the above circuit. The VIN and VIP pins have same voltage, their voltage are 0.5(VCMI + VCMO). Since VCMO is fixed to 1.8V, by scanning VCMI and observing the differential output, we can find the input common mode voltage range. The following figure shows the simulation results, the FDA can be functional when the input common mode voltage is as low as 0.7V, but this is not the valid input common mode voltage because under this condition, M3 and M4 have already entered in to triode region. The lowest possible voltage that both M1, M2, M3 and M4 are all working in saturated region is 0.9V, so the input common mode voltage range is 0.9+VSS ~ VCC.   
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
 ## Output common mode voltage
-![FDA_VoCMFig](img/FDA_VoCMFig.png)  
+The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with our analysis.   
+![FDA_VoCMFig](img/FDA_VoCMFig.png)   
 
 # Conclusion
 
