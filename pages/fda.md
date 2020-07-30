@@ -52,6 +52,8 @@ According to the prior analysis with the help of gm/ID method, the devices param
 The DC operating points of the circuit are shown above. The real operating point of the circuit has increased about 8%, this is due to the inaccuracy of the resistor as well as channel length modulation effect. The real power dissipation is 138.6uW, which still meet the requirements.    
 
 ## Open-loop gain
+![ACResponseTesting](img/ACResponseTesting.png)  
+The open-loop ac response is tested using the above circuit.   
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
 The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.    
 
