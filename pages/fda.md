@@ -60,8 +60,8 @@ The following figure shows the step response of the FDA. The output has a 8.2V/u
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
 ## Input common mode voltage
-![TestingSchInputVCM](img/TestingSchInputVCM.png)  
-The input common mode voltage range is tested using the above circuit. The VIN and VIP pins have same voltage, their voltage are 0.5(VCMI + VCMO). Since VCMO is fixed to 1.8V, by scanning VCMI and observing the differential output, we can find the input common mode voltage range. The following figure shows the simulation results, the FDA can be functional when the input common mode voltage is as low as 0.7V, but this is not the valid input common mode voltage because under this condition, M3 and M4 have already entered in to triode region. The lowest possible voltage that both M1, M2, M3 and M4 are all working in saturated region is 0.9V, so the input common mode voltage range is 0.9+VSS ~ VCC.   
+![TestingSchInputVCM](img/InputVCMTesting.png)  
+The input common mode voltage range is tested using the above circuit. V1, E1 and E2 form a differential voltage source, it outputs a 1V differential voltage. R1~R4 are used to set the gain of FDA to 1, thus, the differential output voltage of FDA should be 1V if it works properly. The VIN and VIP pins have same voltage, their voltage are 0.5(V3 + V3). Since V3 is fixed to 1.8V, which is the output common-mode voltage, by scanning V2 and observing the differential output, we can find the input common mode voltage range. The following figure shows the simulation results, the FDA can be functional when the input common mode voltage is as low as 0.7V, but this is not the valid input common mode voltage because under this condition, M3 and M4 have already entered in to triode region. The lowest possible voltage that both M1, M2, M3 and M4 are all working in saturated region is 0.9V, so the input common mode voltage range is 0.9+VSS ~ VCC.   
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
 ## Output common mode voltage
