@@ -53,10 +53,11 @@ The DC operating points of the circuit are shown above. The real operating point
 
 ## Open-loop gain
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
-The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.   
+The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.    
 
 ## Step response
-The following figure shows the step response of the FDA. The output has a 8.2V/us slew rate. Since ID8 is 2.7uA and the compensattion capacitor C1 is 606.875fF, the calculated slew rate is 8.89V/us, which is consistent with the simulation results.   
+![StepResponseTesting](img/StepResponseTesting.png)  
+The step response is tested using the above circuit. FDA is configured to have unity gain, and a large swing input pulse is used as stimuli. The following figure shows the step response of the FDA. The output has a 8.2V/us slew rate. Since ID8 is 2.7uA and the compensattion capacitor C1 is 606.875fF, the calculated slew rate is 8.89V/us, which is consistent with the simulation results.   
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
 ## Input common mode voltage
@@ -65,7 +66,8 @@ The input common mode voltage range is tested using the above circuit. V1, E1 an
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
 ## Output common mode voltage
-The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with our analysis.   
+![OutputVCMTesting](img/OutputVCMTesting.png)  
+The output common mode voltage range is tested using the above circuit. V1 changes from -3.6V to +3.6V, the differential output is the output common-mode voltage range. The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with analysis.   
 ![FDA_VoCMFig](img/FDA_VoCMFig.png)   
 
 # Conclusion
