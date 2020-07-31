@@ -25,5 +25,39 @@ Here, M14, M15 and M16 are added to properly reset another floating point, the s
 
 
 ## Dynamic Comparator
+The schematic of dynamic comparator used in this project is shown in Fig. 8.   
+![Fig_8](img/SARFig_8.jpg)    
+![Fig_9](img/SARFig_9.jpg)    
+
+## Asynchronous SAR Logic
+### Shift Pulse Generator
+The shift pulse generator is used to generate a series of pulses to control the corresponding bit of the SAR ADC. A single shift pulse generator is shown in Fig. 10.   
+![Fig_10](img/SARFig_10.jpg)    
+Fig. 10 (a) shows the symbol of a single pulse generator, CK pin is used to accept clock signal, RSTn pin is used to reset the whole circuit. When EN pin as well as RSTn pin are high, the OUT pin will output the first clock signal it receives, then the END pin goes high to indicate it has successfully generated a single pulse. The simulation results of a single shift pulse generator are shown in Fig. 11.   
+![Fig_11](img/SARFig_11.jpg)    
+By cascading multiple single shift pulse generators, shift pulse generator used in 8bit SAR ADC can be realized. The implementation of 8bit shift pulse generator is shown in Fig. 12.   
+![Fig_12](img/SARFig_12.jpg)    
+In Fig. 12, when the former single shift pulse generator has successfully generated a pulse, the END pin goes high, since the END pin connects to the EN pin of the next shift pulse generator, the next one will be enabled to generate a pulse. The simulation results of 8bit shift pulse generator are shown in Fig. 13.   
+![Fig_13](img/SARFig_13.jpg)    
+### Self-timing Clock Generator
+In asynchronous SAR ADC, the clock used to control SAR logic is not provided by external signal, it can generate a self-timing clock internally. The schematic of self-timing clock generator is shown in Fig. 14.   
+![Fig_14](img/SARFig_14.jpg)    
+GT signal is used to control the self-timing clock generator, when GT is low, the output of I2 is high, so the output of I3 is low, which disables the comparator. When GT turns high, the output of I2 is determined by its two input, that are A and C. If the two inputs are both high, which indicate that the comparator is closed or it has not finished its comparison, the output of I2 is low and I3’s output is high, which enable the comparator. Once the comparator gets results, the two outputs are different, the output of I2 will goes high to indicate a successful comparison has been completed, the output of I2 is labelled as COMP_END to be used as a comparison finish signal. Then CLK goes low, the two output of comparator is high, a new circle will start. The simulation results are shown in Fig. 15.   
+![Fig_15](img/SARFig_15.jpg)    
+### Timing Generation Circuit
+By combining the units mentioned above, the timing generation circuit can be achieved. The timing generation circuit is used to generation self-timing clock, bit control signals as well as comparison finish signal. The schematic of the timing generation circuit is shown in Fig. 16.   
+![Fig_16](img/SARFig_16.jpg)    
+When CONVERT is high, it indicates that a conversion circle starts. Since END is low, so GT signal is high, which starts the self-timing clock generation. Eight clock pulses will be generated and when the 8th clock has been generated, the END goes high, so GT goes low, the conversion circle ends. The simulation results of this timing generation circuit are shown in Fig. 17.   
+![Fig_17](img/SARFig_17.jpg)    
+## Capacitor Array
+The binary capacitor network used in this project is shown in Fig. 18. The smallest capacitors are C1 and C9, which are 2fF; the largest capacitors are C8 and C16, which are 128fF.   
+![Fig_18](img/SARFig_18.jpg)    
+## Switching Scheme
+### Switching Circuit
+![Fig_19](img/SARFig_19.jpg)    
+### Switching Logic
+![Fig_20](img/SARFig_20.jpg)    
+Fig. 20(a) shows the switching logic used to control the capacitor array connect to common-mode voltage. Fig. 20(b) and (c) show the switching logic used to control the capacitor array connect to reference voltage.   
+
 
 # Return to Homepage
