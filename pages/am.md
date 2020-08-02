@@ -44,7 +44,7 @@ A single stage of AGC has over 30dB dynamic range, although higher range is achi
 # Designing Experience
 ## Matching Consideration of the IF Filter
 The input/output impedance of SFECV10M7KA00 is 330ohm, to connect with 50ohm system, it's required to have a matching network. Although 10.7M is not too high and in most applications, there is no need to matching it into 50ohm, but to reduce the input loss of the filter, it's better to add a matching network. Following figure shows the purpose of the matching network.   
-![IFFilter_Matching](img/IFFilter_Matching.jpg)  
+![IFFilter_Matching](img/IFFilter_Matching.png)  
 If there is no matching network, the input loss of the filter is 12dB, while it is only 6dB if the matching network is added. So to reduce the input loss as well as increase the dynamic range, the matching network should be added.   
 
 ## Considerations about the power supply
