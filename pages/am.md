@@ -43,13 +43,17 @@ A single stage of AGC has over 30dB dynamic range, although higher range is achi
 
 # Designing Experience
 ## Matching Consideration of the IF Filter
+The input/output impedance of SFECV10M7KA00 is 330ohm, to connect with 50ohm system, it's required to have a matching network. Although 10.7M is not too high and in most applications, there is no need to matching it into 50ohm, but to reduce the input loss of the filter, it's better to add a matching network. Following figure shows the purpose of the matching network.   
+![IFFilter_Matching](img/IFFilter_Matching.jpg)  
+If there is no matching network, the input loss of the filter is 12dB, while it is only 6dB if the matching network is added. So to reduce the input loss as well as increase the dynamic range, the matching network should be added.   
 
 ## Considerations about the power supply
 In this project, multiple power supply is needed. The LNA needs 5V single power supply, the mixer needs 9V single power supply. The 5V VCC is provided by a switching power supply that converts 12V to 5V.  Since switching power supply is noisier than LDO, so some measures should be taken to reduce the output noise. Following figure shows the output of LNA when there are no noise reducing circuit.   
 ![PowerNoise](img/PowerNoise.jpg)  
-The waveform is "thick" because the switching noise of the power supply has coupled into the signal path. To reduce the power supply noise, a pi filter can be applied, as shown below:   
+The waveform is "thick" because the switching noise of the power supply has coupled into the signal path. To reduce the power supply noise, a pi filter can be applied, as shown below, and the power supply will be clear enough.   
 ![PiFilter](img/PiFilter.png)  
 
-
+## Be careful of the oscilloscope probe
+In order to measure the bandwidth of the LNA, I used the RF signal generator and oscilloscope to get a rough estimation. But I soon found the bandwidth was so small, about 150MHz. But the datasheet says it should have more than 500MHz bandwidth. After some analysis, I found that's because the probe has input capacitance of tens of pF, it forms a lowpass filter with LNA’s output resistance. The probe has 13pF capacitance, the wire as well as other parts has about few pF, so the total capacitance is about 20pF. The output resistance of LNA is 50ohm, so the bandwidth is limited to 159MHz, which comply with the measurement. One solution is to trun on the oscilloscope's input matching function so that the input resistance of oscilloscope is 50ohm, then the input capacitance of the oscilloscope can be reduced to less than 1pF. The another solution is to use a network analyzer to measure the bandwidth. ***Always remember the input capacitance thing of the oscilloscope.***   
 
 # Returen to Homepage
