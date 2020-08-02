@@ -45,6 +45,10 @@ A single stage of AGC has over 30dB dynamic range, although higher range is achi
 ## Matching Consideration of the IF Filter
 
 ## Considerations about the power supply
+In this project, multiple power supply is needed. The LNA needs 5V single power supply, the mixer needs 9V single power supply. The 5V VCC is provided by a switching power supply that converts 12V to 5V.  Since switching power supply is noisier than LDO, so some measures should be taken to reduce the output noise. Following figure shows the output of LNA when there are no noise reducing circuit.   
+![PowerNoise](img/PowerNoise.jpg)  
+The waveform is "thick" because the switching noise of the power supply has coupled into the signal path. To reduce the power supply noise, a pi filter can be applied, as shown below:   
+![PiFilter](img/PiFilter.png)  
 
 
 
