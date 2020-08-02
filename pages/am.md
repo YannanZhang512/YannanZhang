@@ -16,7 +16,7 @@ It is noticeable that the Output P1dB is 22.3dBm at 0.8GHz, and the AM receiver 
 
 ## Mixer
 ![AD831_data](img/AD831_data.jpg)  
-The mixer AD831 was the only device that I had during the contest, since the maximal working frequency of AD831 is 500MHz, so upper frequency limit of the AM receiver cannot exceed this value too much, which is 510MHz. It is expected to have a larger input frequency range if the mixed can be replaced with a better one.   
+The mixer AD831 was the only device that I had during the contest, since the maximal working frequency of AD831 is 500MHz, so upper frequency limit of the AM receiver cannot exceed this value too much, which is 510MHz. It is expected to have a larger input frequency range if the mixer can be replaced with a better one.   
 The 1dB compression point of AD831 is 10dBm, the maximal input power of AM receiver is -47dBm, so the overall gain before mixer cannot exceed 57dB. Two stages of LNA contributes 40dB gain, a bandpass filter contributes -1.5dB, so the overall gain before mixer is 38.5dB, which is suitable. 
 The next consideration of mixer is its minimal LO driving power. The official data shows the minimal input power of LO port is -10dBm, as shown below, and the maximal output power of PLL is 5dBm, so the mixer can work happily.   
 ![AD831_Lo](img/AD831_Lo.jpg)  
@@ -41,6 +41,10 @@ The schematic of AGC is shown below. A voltage-controlled gain amplifier VCA810 
 ![AGCSch](img/AGCSch.jpg)  
 A single stage of AGC has over 30dB dynamic range, although higher range is achieveable, it could increase the distortion and noise. Since it's required the AM receiver should have 54dB input dynamic range, so two cascade AGC stage are required. The first AGC(X8) stage is used to stablize the IF signal, the second AGC stage is used to stabllize the LF signal.   
 
+# Designing Experience
+## Matching Consideration of the IF Filter
+
+## Considerations about the power supply
 
 
 
