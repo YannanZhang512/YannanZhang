@@ -72,6 +72,12 @@ The input common mode voltage range is tested using the above circuit. V1, E1 an
 The output common mode voltage range is tested using the above circuit. V1 changes from -3.6V to +3.6V, the differential output is the output common-mode voltage range. The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with analysis.   
 ![FDA_VoCMFig](img/FDA_VoCMFig.png)   
 
+## CMRR and CMFB Response
+![CMRRTesting](img/CMRRTesting.png)  
+The CMRR is tested using the above circuit.   
+![FDA_CMRRFig](img/FDA_CMRRFig.png)   
+![FDA_CMStbFig](img/FDA_CMStbFig.png)   
+
 # Conclusion
 
 # Return to Homepage
