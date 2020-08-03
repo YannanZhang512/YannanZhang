@@ -40,10 +40,9 @@ Oct. 2016 - Dec. 2016, Beijing, China
 # Projects
 ### Circuit Design
 + [A 50ppm Low Power Bandgap Reference](pages/bandgap.md)
-+ [Low Drop Voltage Regulator]()
 + [A 15MHz, 120dB Open-Loop Gain Fully Differential Amplifier](pages/fda.md)
-+ [A 50MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
-+ [500MHz Bandwidth 54dB Input Dynamic Rage AM Receiver](pages/am.md)
++ [A 40MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
++ [500MHz Bandwidth AM Receiver with 54dB Input Dynamic Rage](pages/am.md)
 + [My Other Works and DIYs](pages/partofwork.md)  
 
 ### PCB Layout Projects
