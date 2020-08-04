@@ -63,6 +63,6 @@ The start-up circuit should be stable and reliable, and make sure the start-up c
 ![BandgapStartup](img/BandgapStartup.png)   
 The previous version of the start-up circuit is shown below (without M27). This version of start-up circuit cannot start the bandgap successfully. The detailed reasons are as follow:   
 **At the beginning, Vref=0, the output of the inverter formed by M24 and M25 is high, so M26 turns on and pulls the B point down. The current flows through M12 and M26 is labelled as Istartup. The voltage of point B is VDD - |VTHP + Vov12|, since VTHP is about -0.7V, and Istartup is relatively large, so we can expect that the potential of point B is no larger than VDD - 1V. Second, no matter how much the point A's potential is, the drain current of M14 (Id14) is smaller than that of M15 (Id15), because Vgs14 < Vgs15. Then the potential of VIP is larger than that of VIN. Since the operational apmlifier's non-inverting input has larger potential than its inverting input, the output of operational amplifier will saturated, that means the potential of point A is about VDD - |VDS9|, so point A has larger potential than point B, which means M14 turns off. The key to address this problem is to pull down point A at the same time, which can be achieved by adding M27, as shown in the above figure.**   
-![BandgapStartupPreAna](img/BandgapStartupPreAna.jpg)   
+![BandgapStartupPreAna](img/BandgapStartupPreAna.png)   
 
 # Return to Homepage   
