@@ -7,10 +7,10 @@ OOps!
 + **AD667, AD0809, AD1674, AD565**   
 ![AD667](img/AD667.jpg)  
 + **ADI's HAS-1202A**   
-***HAS-1202A is ADI's 12Bits Ultra-Fast Hybrid Analog-to-Digital Converter. Its conversion time is 1.2us with an accuracy of 0.012% of F.S. Interestingly, it don't have a track-and-hold circuit, so it must be used with an external track-and-hold chip, like HTC-0300.***   
+***HAS-1202A is ADI's 12Bits Ultra-Fast Hybrid Analog-to-Digital Converter. Its conversion time is 1.2us with an accuracy of 0.012% of F.S. Interestingly, it doesn't have a track-and-hold circuit, so it must be used with an external track-and-hold chip, like HTC-0300.***   
 ![HAS-1202A](img/HAS-1202A.jpg)  
 + **5G23A and FC3B**   
-***5G23A and FC3B are integrated operational amplifiers made in China in 1977 and 1981 respectively. ***
+***5G23A and FC3B are integrated operational amplifiers made in China in 1977 and 1981 respectively.***   
 ![5g23a_fc3b](img/5g23a_fc3b.jpg) 
 
 ## Vacuum Tubes   
