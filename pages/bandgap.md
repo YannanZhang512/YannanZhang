@@ -6,13 +6,13 @@
 # Design Method   
 ## Schematic of the design   
 **The Schematic of the bandgap is shown below:**   
-![BandgapSch](img/BandgapSch.jpg)   
+![BandgapSch](img/BandgapSch.png)   
 **The design parameter of the bandgap is shown below:**   
 ![Parameter](img/bandgapparameter.jpg)  
 
 ## Setting of the quiescent current
 To satisfy the power requirement, that is, no more than 200uW power consumption, the quiescent currents are set as follow:   
-![BandgapQuiescentCurrent](img/BandgapQuiescentCurrent.jpg)  
+![BandgapQuiescentCurrent](img/BandgapQuiescentCurrent.png)  
 
 ## Calculation of the parameter
 ### Calculation of Rx
@@ -60,7 +60,7 @@ In the above table, the cells with orange color represent the output resistance 
 
 + ***Start-up Circuitry***   
 The start-up circuit should be stable and reliable, and make sure the start-up circuit can help the whole circuit build stable operating point. The start-up circuit in the bandgap is shown below, maked with red line.   
-![BandgapStartup](img/BandgapStartup.jpg)   
+![BandgapStartup](img/BandgapStartup.png)   
 The previous version of the start-up circuit is shown below (without M27). This version of start-up circuit cannot start the bandgap successfully. The detailed reasons are as follow: at first, Vref=0, so M24 and M26 pull B to the VDD - |(VGS12 + Vov12)|, since M12 is saturated.   
 ![BandgapStartupPre](img/BandgapStartupPre.jpg)   
 
