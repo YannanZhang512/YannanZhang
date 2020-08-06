@@ -66,7 +66,7 @@ OOps!
 
 ## Diodes
 + **2AP8B**   
-***This model of diode were made in 1979, China.***
+***This model of diode were made in 1979, China.***   
 ![2AP8B](img/2AP8B.jpg)   
 ![2AP8B_Inner](img/2AP8B_Inner.jpg)   
 
