@@ -1,9 +1,9 @@
 # FDA
 
 # Introduction
+**In this project, a fully differential folded cascode operational amplifier has been designed by using the gm/ID methodology. Besides, hand-calculation is used to roughly estimated the other paramters.**   
 
 # Schematic of the FDA
-
 ## The Fully Differential Amplifier Core
 ![FDACore](img/FDACore.jpg)   
 
@@ -47,32 +47,32 @@ According to the prior analysis with the help of gm/ID method, the devices param
 
 # Simualtion Results and Analysis
 
-## DC opreating point
++ **DC opreating point**   
 ![FDA_DCop](img/FDA_DCop.jpg)  
 The DC operating points of the circuit are shown above. The real operating point of the circuit has increased about 8%, this is due to the inaccuracy of the resistor as well as channel length modulation effect. The real power dissipation is 138.6uW, which still meet the requirements.    
 
-## Open-loop gain
++ **Open-loop gain**   
 ![ACResponseTesting](img/ACResponseTesting.png)  
 The open-loop ac response is tested using the above circuit.   
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
 The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.    
 
-## Step response
++ **Step response**   
 ![StepResponseTesting](img/StepResponseTesting.png)  
 The step response is tested using the above circuit. FDA is configured to have unity gain, and a large swing input pulse is used as stimuli. The following figure shows the step response of the FDA. The output has a 8.2V/us slew rate. Since ID8 is 2.7uA and the compensattion capacitor C1 is 606.875fF, the calculated slew rate is 8.89V/us, which is consistent with the simulation results.   
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
-## Input common mode voltage
++ **Input common mode voltage range**   
 ![TestingSchInputVCM](img/InputVCMTesting.png)  
 The input common mode voltage range is tested using the above circuit. V1, E1 and E2 form a differential voltage source, it outputs a 1V differential voltage. R1~R4 are used to set the gain of FDA to 1, thus, the differential output voltage of FDA should be 1V if it works properly. The VIN and VIP pins have same voltage, their voltage are 0.5(V3 + V3). Since V3 is fixed to 1.8V, which is the output common-mode voltage, by scanning V2 and observing the differential output, we can find the input common mode voltage range. The following figure shows the simulation results, the FDA can be functional when the input common mode voltage is as low as 0.7V, but this is not the valid input common mode voltage because under this condition, M3 and M4 have already entered in to triode region. The lowest possible voltage that both M1, M2, M3 and M4 are all working in saturated region is 0.9V, so the input common mode voltage range is 0.9+VSS ~ VCC.   
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
-## Output common mode voltage
++ **Output common mode voltage range**   
 ![OutputVCMTesting](img/OutputVCMTesting.png)  
 The output common mode voltage range is tested using the above circuit. V1 changes from -3.6V to +3.6V, the differential output is the output common-mode voltage range. The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with analysis.   
 ![FDA_VoCMFig](img/FDA_VoCMFig.png)   
 
-## CMRR and CMFB Response
++ **CMRR and CMFB Response**   
 ![CMRRTesting](img/CMRRTesting.png)  
 The CMRR is tested using the above circuit.   
 ![FDA_CMRRFig](img/FDA_CMRRFig.png)   
@@ -80,4 +80,6 @@ The CMRR is tested using the above circuit.
 
 # Conclusion
 
+
 # Return to Homepage
+[Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
