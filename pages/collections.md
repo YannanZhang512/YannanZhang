@@ -1,4 +1,5 @@
 # My Antique Electronic Collection
+***I enjoy collecting all kinds of electronic things, especially chips, transistors, diodes, vacuum tubes and instruments. Some of my collections have witnessed the development of our country's electronic industry, even a small diode emits the scent of history.***   
 
 ## Instruments
 OOps!   
@@ -62,6 +63,12 @@ OOps!
 ***3DG142C is a silicon NPN low-power transistor. It is made in 1987, Shandong, China***   
 ![3dg142c](img/3dg142c.jpg)   
 ![3dg142c_inner](img/3dg142c_inner.jpg)   
+
+## Diodes
++ **2AP8B**
+***This model of diode were made in 1979, China. ***
+![2AP8B](img/2AP8B.jpg)   
+![2AP8B_Inner](img/2AP8B_Inner.jpg)   
 
 ## Resistors
 OOps!   
