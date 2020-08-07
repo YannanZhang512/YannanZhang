@@ -80,6 +80,16 @@ The CMRR is tested using the above circuit.
 
 # Conclusion
 
+# Designing Experience
++ **How to effectively simulate the functionality of a start-up circuit**   
+Whether a start-up circuit is functional is of great importance. If the start-up circuit cannot function as what we expected, then it may cause the whole system to fail. During the designing process, I found even if without a start-up circuit, when I ran a DC simulation, the bias circuit can exhibit the right behaviour. Then I proposed a better way to do the simulation, and by adopting this method in many experiments, I found it can verify the functionality of start-up circuit effectively.   
+1. Why a bias circuit can exhibit the right behaviour even if without a start-up circuit?    
+***I think this is because the NMOS and PMOS's leaking current (off-state current) are not small enough, the gain of the loop is larger than 1, so the positive feedback causes the current increase, then the circuit can start-up by itself.***   
+2. How to solve the problem?    
+***My newly proposed way is to add damping resistor in the circuit. By adding damping resistors, the bias circuit will no longer start atuomatically if there is no start-up circuit. However, it will not affect the functionality of the whole circuit if a usable start-up circuit is present. But, if the start-up circuit is not a functional one, the whole circuit still cannot start up. In a word, by adding damping resistor can verify the functionality of the start-up circuit.***   
+3. An example.   
+
+
 
 # Return to Homepage
 [Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
