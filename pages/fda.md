@@ -88,6 +88,24 @@ Whether a start-up circuit is functional is of great importance. If the start-up
 2. How to solve the problem?    
 ***My newly proposed way is to add damping resistor in the circuit. By adding damping resistors, the bias circuit will no longer start atuomatically if there is no start-up circuit. However, it will not affect the functionality of the whole circuit if a usable start-up circuit is present. But, if the start-up circuit is not a functional one, the whole circuit still cannot start up. In a word, by adding damping resistor can verify the functionality of the start-up circuit.***   
 3. An example.   
+The following figure shows a self-biasing circuit that can generate four bias voltage, but it don't have a start-up circuit. First, let's run the DC simulation of the circuit.   
+![FDABiasExample](img/FDABiasExample.png)    
+The results are shown in the following figure, each branch has 2.72uA current, which means the circuit starts up successfully. But in fact, due to process variation and non-ideal factor, this bias circuit may not start up itself as the simulation shows.       
+![FDABiasNoDampingResults](img/FDABiasNoDampingResults.jpg)    
+**Then, we can add some damping resistors to make the circuit beahve as it is expected in real world. The damping resistor should be large enough so that not affect the circuit too much, 10M ohm is a reasonable value.** The following figure shows the bias circuit with damping resistors (symbols with red line).    
+![FDABiasExampleDamping](img/FDABiasExampleDamping.png)    
+Then, let's run the DC simulation of the circuit. The results are shown below:   
+![FDABiasDampingResults](img/FDABiasDampingResults.jpg)    
+**Results show that each branch only has 20pA current, which indicates the circuit don't start up. This is exactly what we expect.** Next, we can use this method to verify the functionality of the start-up circuit.   
+The following figure shows the bias circuit with start-up, and damping resistors. By adding three damping resistors, the simulation results can reliably show whether the start-up circuit is usable.   
+![FDABiasExampleWhole](img/FDABiasExampleWhole.png)    
+When VDD = 3.6V, the simulation results are shown below. **The results show that the start-up circuit can effectively start the circuit when VDD = 3.6V**.   
+![FDAWholeResult3V6](img/FDAWholeResult3V6.jpg)    
+When VDD = 2.0V, the simulation results are shown below. **The results show that the start-up circuit cannot effectively start the circuit when VDD = 2.0V**.   
+![FDAWholeResult2V0](img/FDAWholeResult2V0.jpg)    
+**What if we remove the damping resistors and simulte the circuit again? The results are shown below, and it seems that results show the start-up circuit can effectively start the circuit when VDD = 2.0V, which is totally different from the prior results.**   
+![FDAWholeNoDampingResult2V0](img/FDAWholeNoDampingResult2V0.jpg)    
+***In conclusion, without the damping resistor, we cannot find the fact that the start-up circuit actually cannot start up the circuit when VDD = 2V. So the proposed method can effectively verify the functionality of the start-up circuit***   
 
 
 
