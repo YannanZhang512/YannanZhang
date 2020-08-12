@@ -1,6 +1,7 @@
-# AsyncSAR ADC
+# Asynchronous SAR ADC
 
 # Introduction
+**This project was intended to learn how to implement a asynchronous SAR ADC, especially the design of the timing generation logic and control logic. This project does have some my original ideas, for example, I made some changes to the TSPC DFF, besides, the whole 'Asynchronous SAR Logic' section and 'Switching Scheme' section are my original work. This work was supposed to be tested comprehensively, but unfortunately, because my computer's performance limitation (I run the Cadence in virtual machine), it's difficult to include many results such as FFT spectrum as well other time-consuming simulations.**   
 
 # Circuit Implementation
 ## D Flip-Flop
@@ -59,5 +60,8 @@ The binary capacitor network used in this project is shown in Fig. 18. The small
 ![Fig_20](img/SARFig_20.jpg)    
 Fig. 20(a) shows the switching logic used to control the capacitor array connect to common-mode voltage. Fig. 20(b) and (c) show the switching logic used to control the capacitor array connect to reference voltage.   
 
+# Simulation Results
+
 
 # Return to Homepage
+[Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
