@@ -30,19 +30,19 @@
 
 # 项目设计
 ### 电路设计
-+ [50ppm低功耗带隙电压基准](pages/bandgap.md)
-+ [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](pages/fda.md)
-+ [8位40MSPS异步架构逐次逼近比较器设计](pages/asyncSAR.md)
-+ [54dB输入动态范围，500MHz带宽调幅接收机](pages/am.md)
-+ [我的其他制作和DIY](pages/partofwork.md)  
++ [50ppm低功耗带隙电压基准](pages/bandgap_cn.md)
++ [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](pages/fda_cn.md)
++ [8位40MSPS异步架构逐次逼近比较器设计](pages/asyncSAR_cn.md)
++ [54dB输入动态范围，500MHz带宽调幅接收机](pages/am_cn.md)
++ [我的其他制作和DIY](pages/partofwork_cn.md)  
 
 ### PCB布线经验
-+ [LMH6401 直流 至 4.5 GHz, 全差分, 数字控制可变增益全差分放大器评估板](pages/lmh6401.md)
-+ [低谐波失真高速运算放大器布线](pages/LowDistortionAmpPCB.md)
++ [LMH6401 直流 至 4.5 GHz, 全差分, 数字控制可变增益全差分放大器评估板](pages/lmh6401_cn.md)
++ [低谐波失真高速运算放大器布线](pages/LowDistortionAmpPCB_cn.md)
 
 ### CMOS器件相关项目
-+ [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa.md)   
-+ [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa.md)   
++ [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa_cn.md)   
++ [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa_cn.md)   
 ***以上两个项目是科研项目，受863项目“14纳米以下技术代硅基新型器件及关键工艺技术研究”和 “中央高校基本科研业务费专项资金(2019PTB-016)”支持.***   
 
 ### 嵌入式系统
