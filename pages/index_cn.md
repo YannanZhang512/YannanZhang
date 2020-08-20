@@ -37,8 +37,8 @@
 + [我的其他制作和DIY](pages/partofwork.md)  
 
 ### PCB布线经验
-+ [LMH6401 DC to 4.5 GHz, Fully-Differential, Digital Variable-Gain Amplifier Demonstration Board](pages/lmh6401.md)
-+ [Low Harmonic Distortion PCB for Operational Amplifier](pages/LowDistortionAmpPCB.md)
++ [LMH6401 直流 至 4.5 GHz, 全差分, 数字控制可变增益全差分放大器评估板](pages/lmh6401.md)
++ [低谐波失真高速运算放大器布线](pages/LowDistortionAmpPCB.md)
 
 ### CMOS器件相关项目
 + [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa.md)   
@@ -57,8 +57,8 @@
 
 # 我的电子收藏    
 作为一个电子技术爱好者，当然热衷于收藏电子元器件、电子设备、仪器仪表！   
-[我的电子收藏](pages/collections.md)   
-[我收集的芯片](pages/chipcollections.md)    
+[我的电子收藏](pages/collections_cn.md)   
+[我收集的芯片](pages/chipcollections_cn.md)    
 
 # 联系方式
 邮箱: murmures@bupt.edu.cn
