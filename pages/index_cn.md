@@ -4,76 +4,62 @@
 
 # 关于我
 ![banner](img/banner.jpg)   
-**Hello, My name is Yannan Zhang. I'm from China. I become interested in Electronics when I was a small child. My grandfather was an electrician when I was young. He stored all his electronic components in a drawer. One day, I found all that shiny small things and smashed them using a hammer. Since then, my fate was destined.** 
+**大家好，我是张雁楠，一个热爱电子技术，励志为中国集成电路事业贡献自己微薄力量的普通人。在我很小的时候，我受到来自家庭的熏陶，因而爱上了电子技术。因为我爷爷是一个电工，他把他积攒下的元器件都放在一个抽屉里，年少无知的我觉得那些闪耀着光芒的东西很神奇，想要一探究竟，于是用锤子砸开。等我长大了，那一抽屉的“管子”都已经消失，但我对电子技术的兴趣却逐渐开始萌生。** 
 
-# Education
-+ ***Beijing University of Posts and Telecommunications***   
-Sept. 2017 - Jul. 2020, **MSc in Electronic Science and Technology**   
-*First Class Scholarship, 2019*   
-*First Class Scholarship, 2018*   
-*First Class Scholarship, 2017*   
+# 教育背景
++ ***北京邮电大学***   
+2017年9月 - 2020年7月, **电子科学与技术专业硕士学位**   
+*连续三年获得一等奖学金*   
 
-+ ***Beijing University of Posts and Telecommunications***  
-Sept. 2013 - Jul. 2017, **BEng in Electronic Science and Technology**   
-*Qualcomm Scholarship, 2016*   
-*First Prize in Beijing Undergraduate Electronics Design Contest, 2016*   
++ ***北京邮电大学***  
+2013年9月 - 2017年7月, **电子科学与技术工学学士学位**   
+*2016年获得高通奖学金*   
+*2016年获全国大学生电子设计竞赛北京赛区一等奖*   
 
-# Academic Achievement & Publications
+# 学术成果
 [1] [K. Han, **Y. Zhang** and Z. Deng, "A Simulation Study of Gate-All-Around Nanowire Transistor With a Core-Substrate," in IEEE Access, vol. 8, pp. 62181-62190, 2020, doi: 10.1109/ACCESS.2020.2983724.](https://ieeexplore.ieee.org/document/9049338)   
 [2] [**Zhang, Y.**; Han, K.; Li, A.J. A Simulation Study of a Gate-All-Around Nanowire Transistor with a Core–Insulator. Micromachines 2020, 11, 223.](https://www.mdpi.com/2072-666X/11/2/223?type=check_update)   
-*Note: Actually, I'm the first author of [1].*
+*两篇文章中，我均位列学生作者第一位*
 
-# Experience
-+ **Beijing University of Posts and Telecommunications**     
-Dec. 2017 - May 2018, Beijing, China   
-*A member of National 863 Program in “14 nm Technology Generation Silicon-Based Novel Devices and Key Crafts Research of China”*   
-
-+ **Beijing University of Posts and Telecommunications**   
-Teaching Assistant  
-Dec. 2016 - Sept. 2017, Beijing, China   
-*Training 45 undergraduate students to attend “National Undergraduate Electronics Design Contest”*   
-
-+ **Intel Mobile Communications Technology (Beijing) Ltd.**   
-Internship - Embeded System Testing  
-Oct. 2016 - Dec. 2016, Beijing, China   
-*Migrating former software framework into new system.*   
-*Developing baseband modem (XMM7560) software.*   
-*Debugging and Testing.*   
+# 科研经历
++ **北京邮电大学**     
+2017年12月 - 2018年5月, 中国北京  
+*14纳米以下技术代硅基新型器件及关键工艺技术研究，863项目，2015AA016501*   
+*发表两篇SCI文章，一篇专利正在申请*
 
 
-# Projects
-### Circuit Design
-+ [A 50ppm Low Power Bandgap Reference](pages/bandgap.md)
-+ [A 15MHz, 120dB Open-Loop Gain Fully Differential Amplifier](pages/fda.md)
-+ [A 40MSPS 8 bit Asynchronous SAR ADC](pages/asyncSAR.md)
-+ [500MHz Bandwidth AM Receiver with 54dB Input Dynamic Rage](pages/am.md)
-+ [My Other Works and DIYs](pages/partofwork.md)  
+# 项目设计
+### 电路设计
++ [50ppm低功耗带隙电压基准](pages/bandgap.md)
++ [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](pages/fda.md)
++ [8位40MSPS异步架构逐次逼近比较器设计](pages/asyncSAR.md)
++ [54dB输入动态范围，500MHz带宽调幅接收机](pages/am.md)
++ [我的其他制作和DIY](pages/partofwork.md)  
 
-### PCB Layout Projects
+### PCB布线经验
 + [LMH6401 DC to 4.5 GHz, Fully-Differential, Digital Variable-Gain Amplifier Demonstration Board](pages/lmh6401.md)
 + [Low Harmonic Distortion PCB for Operational Amplifier](pages/LowDistortionAmpPCB.md)
 
-### CMOS Devices
+### CMOS器件相关项目
 + [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa.md)   
 + [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa.md)   
-***The two projects are under the grant of the National High Technology Research and Development Program ("863" Program,14 nm technology generation silicon-based novel devices and key crafts research,2015AA016501) of China and the Fundamental Research Funds for the Central Universities(2019PTB-016).***   
+***以上两个项目是科研项目，受863项目“14纳米以下技术代硅基新型器件及关键工艺技术研究”和 “中央高校基本科研业务费专项资金(2019PTB-016)”支持.***   
 
-### Embeded System
-+ [Tutorial code for TI's MSP430G2553 launchpad](https://github.com/YannanZhang512/MSP430G2553_TutorialCode)
+### 嵌入式系统
++ [德州仪器MSP430G2553 launchpad开发板教学代码](https://github.com/YannanZhang512/MSP430G2553_TutorialCode)
 
-# My Video Tutorial
-Once I was a high school student, I was attracted by the electronic world. I wanted to learn how to program microcontrollers and how to build my own audio amplifier. But without a tutor or someone to guide me, I felt so painful to learn those esoteric knowledge. I understand the pain that a starter feel, so I'm trying to share my limited knowledge to help those who want to enter the electronic world but don't know how to do.   
-**Below are some video tutorials that I recorded. These videos explain knowledge in a more practical way, not a academic way, which can help starters to enter the world quickly.**
+# 我录制的视频教程
+以下是我录制的一些视频教程，录制这些教程的初衷是为了更好的带领北邮电子工程学院的学生参加全国大学生电子设计竞赛，他们做为初学者，需要一些捷径以便更快入门。在这些教程中，我尝试用一种直白而且实用的方式讲述基本知识，我曾经用这些教程培训电子工程学院的同学参加全国大学生电子设计竞赛，所获参赛成绩是我校历史最好成绩，同时这些视频在北京邮电大学电子工程学院广为传播，帮助众多学弟学妹实现快速入门。
 
-+ [An introduction to the basic concept and usage of Digital to Analog Converter.](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
-+ [An introduction to the basic concept and usage of Opeartional Amplifier.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
-+ [Programming TI's MSP430G2553 launchpad using C language.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHyLQ5KSV0SdlaFIZCimGQY)   
++ [模拟数字转换器的基本原理与使用方法](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
++ [集成运算放大器的基本原理与应用](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
++ [MSP430G2553单片机编程快速入门](https://www.youtube.com/playlist?list=PLGBDFkRTcisHyLQ5KSV0SdlaFIZCimGQY)   
 
-# My Electronic Collection    
-I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
-[See My Antique Electronic Collections](pages/collections.md)   
-[See My Chip Collection](pages/chipcollections.md)    
+# 我的电子收藏    
+作为一个电子技术爱好者，当然热衷于收藏电子元器件、电子设备、仪器仪表！   
+[我的电子收藏](pages/collections.md)   
+[我收集的芯片](pages/chipcollections.md)    
 
-# Contact
-E-mail: murmures@bupt.edu.cn
+# 联系方式
+邮箱: murmures@bupt.edu.cn
 
