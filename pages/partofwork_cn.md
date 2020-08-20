@@ -21,7 +21,7 @@
 ![SwitchingPowerSupply_2](img/SwitchingPowerSupply_2.jpg)   
 
 + **3V~15V 电源模块**   
-***这是我制作的另一个开关电源模块，可以给一些装置供电. ***   
+***这是我制作的另一个开关电源模块，可以给一些装置供电.***   
 ![SwitchingPowerSupply_3](img/SwitchingPowerSupply_3.jpg)   
 
 + **太阳能电源**   
