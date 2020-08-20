@@ -1,13 +1,13 @@
-# Part of My Other Works and DIYs   
-**In this page, I list some of my works and DIYs. Some of them were made when I was in high school, others were made when I was in university.**   
+# 我的其他作品和DIY   
+**本页中罗列了我的部分作品和DIY，其中一些是我在高中时期利用课余时间做的，另一些是我在大学时做的。**   
 
-## Something I made when I was a high school student
+## 高中时的一些小制作
 
-+ **A High Voltage Generator**   
-***This is a high voltage generator that can output 1200V high voltage. I made this because my physical teacher wanted me to give a lecture to all my classmates, and I used this to illustrate how a fluorescent lamp works.***   
++ **高压发生器**   
+***这是一个可以产生1200V的高压发生器。在高中时代，我的物理老师希望我能给大家科普一下生活中的电学知识，为了像大家介绍日光灯的工作原理，我制作了这个高压发生器，它可以短暂的点亮日光灯，在那次科普课上，这个小实验装置取得了不错的演示效果。***   
 ![HighVoltGen](img/HighVoltGen.jpg)   
 
-+ **A 100mW audio Amplifier**   
++ **100mW音频功率放大器**   
 ***This is a 100mW audio amplifier using some common NPN and PNP transistors. When I was a high school students, I liked piano music, I downloaded a lot and I used this small amplifier to amplify them and enjoy them.***   
 ![audioAmp](img/audioAmp.jpg)   
 
