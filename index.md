@@ -1,6 +1,6 @@
 # Welcome to Yannan Zhang's Personal Page
-[English Version](https://yannanzhang512.github.io/YannanZhang/)
-[中文版](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)
+[English Version](https://yannanzhang512.github.io/YannanZhang/)    
+[中文版](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)    
 
 # About me
 ![banner](img/banner.jpg)   
