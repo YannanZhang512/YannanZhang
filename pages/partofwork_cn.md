@@ -4,42 +4,42 @@
 ## 高中时的一些小制作
 
 + **高压发生器**   
-***这是一个可以产生1200V的高压发生器。在高中时代，我的物理老师希望我能给大家科普一下生活中的电学知识，为了像大家介绍日光灯的工作原理，我制作了这个高压发生器，它可以短暂的点亮日光灯，在那次科普课上，这个小实验装置取得了不错的演示效果。***   
+***这是一个可以产生1200V的高压发生器。在高中时代，我的物理老师希望我能给大家科普一下生活中的电学知识，为了向大家介绍日光灯的工作原理，我制作了这个高压发生器，它可以短暂的点亮日光灯，在那次科普课上，这个小实验装置取得了不错的演示效果。***   
 ![HighVoltGen](img/HighVoltGen.jpg)   
 
 + **100mW音频功率放大器**   
-***This is a 100mW audio amplifier using some common NPN and PNP transistors. When I was a high school students, I liked piano music, I downloaded a lot and I used this small amplifier to amplify them and enjoy them.***   
+***这是一个100mW的功率放大器，能够驱动一只小喇叭，晶体管型号采用常见的8050和8550. 虽然输出功率不大，但是声音还是较为响亮的。***   
 ![audioAmp](img/audioAmp.jpg)   
 
-+ **A Digital Timer**   
-***This is a digital timer. It can be used to control a fan or a lamp or something.***   
++ **数字定时器**   
+***这个数字定时器具有时钟功能，还可以按照设定的时间定时开启关闭，可以用来控制风扇和灯。***   
 ![DigitalTimer](img/DigitalTimer.jpg)   
 
-+ **A 3V~30V Switching Power Supply Module**   
-***This is a switching power supply that I used to power most of my DIYs. At that time, I don't have a commercial regulated DC power supply, so I made this. It's noticeable that I even made the inductor myself. I coiled the wire on a ferrite core to made this inductor, it works well!***   
++ **3V~30V开关电源模块**   
+***由于没有成品的稳压源，我制作了这个简单的开关电源给我的小制作供电，这个开关电源的电感是我自己绕制的。***   
 ![SwitchingPowerSupply_1](img/SwitchingPowerSupply_1.jpg)   
 ![SwitchingPowerSupply_2](img/SwitchingPowerSupply_2.jpg)   
 
-+ **A 3V~15V Power Supply Module**   
-***This is another power supply module that I made. It uses a adapter as a power, it converts the 18V input to 3V-15V output. Since it has a adapter, it's easy to use.***   
++ **3V~15V 电源模块**   
+***这是我制作的另一个开关电源模块，可以给一些装置供电. ***   
 ![SwitchingPowerSupply_3](img/SwitchingPowerSupply_3.jpg)   
 
-+ **A Solar Energy Harvesting System**   
-***This is a solar energy harvesting system. It has a 10W solar cell panel, it can be used as a charger since it has a 5V USB output. It also has an adjustable output that can output a maximal 12V voltage. Besides, it has a overvoltage protection circuit.***   
++ **太阳能电源**   
+***这个太阳能电源使用了10W的太阳能电池板，可以用来给电池充电，也具有较宽的输出电压范围，同时具有USB输出接口，可以给手机充电。除此之外，为了保障整个电路的安全性，整个系统具有过压保护和过流保护功能。***   
 ![SolarEnergyHarvestingSystem](img/SolarEnergyHarvestingSystem.jpg)   
 
-+ **A Audio Recorder**   
-***This audio recorder can record 30s audio and replay it at any time.***   
++ **简单录音机**   
+***这个简单的录音机能够录制30s的声音，并能反复播放。***   
 ![audioRecorder](img/audioRecorder.jpg)   
 
-+ **A Static Detector**   
-***This is a static detector, it can be used to detect objects that have static if you don't want to be shocked. It also can be used to detect the thunder, when there is a thunder, the needle will shake.***   
++ **静电探测器**   
+***这个静电探测器能够探测带点物体，如果把手机等能发射电磁辐射的设备靠近探测天线，则指针会偏转较大角度，若有来电，指针会来回摆动。***   
 ![StaticDetector](img/StaticDetector.jpg)   
 
 
 
-## PCB Layout    
-***The following photo shows some of pcb I designed, including phase-locked loop, rf amplifier, mixer, am receiver front-end and so on.***   
+## PCB布线    
+***下图中是布过的PCB, 包含锁相环, 射频放大器, 混频器, 调幅接收机前端。***   
 ![PCB_Layout](img/PCBs.jpg)   
 
 ## A 2.4G Wireless Transmitter and Receiver
