@@ -1,3 +1,7 @@
+# Welcome to Yannan Zhang's Personal Page
+[English Version](https://yannanzhang512.github.io/YannanZhang/)
+[中文版](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)
+
 # About me
 ![banner](img/banner.jpg)   
 **Hello, My name is Yannan Zhang. I'm from China. I become interested in Electronics when I was a small child. My grandfather was an electrician when I was young. He stored all his electronic components in a drawer. One day, I found all that shiny small things and smashed them using a hammer. Since then, my fate was destined.** 
