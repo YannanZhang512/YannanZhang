@@ -1,42 +1,41 @@
 # FDA
 
-# Introduction
-**In this project, a fully differential folded cascode operational amplifier has been designed by using the gm/ID methodology. Besides, hand-calculation is used to roughly estimated the other paramters.**   
+# 简介
+**本项目使用gm/ID方法实现了一个折叠式共源共栅全差分放大器，基于SMIC 130um工艺，具有15MHz的单位增益带宽，120dB开环电压增益。**   
 
-# Schematic of the FDA
-## The Fully Differential Amplifier Core
+# 全差分放大器电路图
+## 全差分放大器核心电路
 ![FDACore](img/FDACore.jpg)   
 
-## The Vcm Feedback Circut
+## 共模电压反馈电路
 ![VCMFB](img/VCMFB.jpg)   
 
-## The Bias Circuit with Start Up
+## 带有启动电路的偏置电路
 ![FDABias](img/FDABias.jpg)   
 
-# System Design
+# 系统设计
 
-## Specifications
+## 参数指标
 ![FDA_Spec](img/FDA_Spec.jpg)  
 
-## Calculation of Unity gain bandwidth
+## 单位增益带宽计算
 ![FDA_ft_Equ](img/FDA_ft_Equ.jpg)  
-To minimize the total area, the value of compensation capacitor should be as small as possible. In this design, a MIM capacitor is used. The smallest MIM capacitor is 606.875fF, which the area is 25umx25um. To achieve at least 10MHz unity gain bandwidth, the gm1 should be no less than 3.8 x 10^-5 S.   
+为了尽量减小芯片面积，补偿电容的大小要尽量小。在本设计中，补偿电容选用MIM电容，最小的MIM电容是606.875fF, 版图面积为25umx25um. 为获得至少10MHz单位增益带宽，gm1应该不小于3.8 x 10^-5 S.   
 
-## Calculation of slew rate
+## 压摆率计算
 ![FDA_sr_Equ](img/FDA_sr_Equ.jpg)  
-The formula shown above determines the minimal quiescent current of M8, which is 1.5uA.   
+上式既是压摆率的计算公式，根据补偿电容选用606.875fF，可以计算出M8的静态电流至少为1.5uA.   
 
-## Calculation of open-loop gain
+## 开环电压增益计算
 ![FDA_gain_Equ](img/FDA_gain_Equ.jpg)  
-The overall gain of this FDA is achieved by two stage, the first stage is a folded cascode stage and the second stage is a common source stage. To achieve at least 120dB gain, the first stage can be set to achieve 80dB gain and the second stage can be set to achieve 40dB gain.   
+本设计中，全差分放大器的增益由两级提供, 第一季级为折叠式共源共栅放大级，第二级为共源极。为了获得至少120dB开环电压增益，第一级应该至少提供80dB增益，第二级提供40dB增益。   
 
-## Calculation of power dissipation
-The whole circuit consists of three parts, FDA circuit, CMFB circuit and bias circuit. We expect the total power dissipation is no more than 200uW. Since we have known that the drain current of M8 should not be less than 1.5uA, thus we can determine the dc operating point of the whole circuit, which is shown below:   
+## 功耗计算
+整体电路由三部分组成，全差分放大部分, 共模反馈部分和偏置部分。指标要求最大功耗小于200uW，M8的漏极电流1要大于1.5uA，因此可以粗略估计整个电路各个支路的电流，如下所示：   
 ![FDA_Current](img/FDA_Current.jpg)  
+整体电流为35uA@3.6V,总功耗为126uW。     
 
-The total current is 35uA, under 3.6V supply voltage, the total power dissipation is 126uW, which is less than 200uW. Although we can increase the current of each branches, since there is a lot of room to do this. But the bias circuit cannot generate any value of current easily, because the current of bias circuit is determined by the resistor, and the resistor cannot set to any value easily. So, in order not to exceed the maximal 200uW power dissipation, we don't need to change the settings.   
-
-## Calculation of common-mode input and output range
+## 输入输出共模电压范围计算
 The calculation formulae are shown below. VTHN is about 700mV, so the overdrive vlotage of M1, M3 and M4 is about 100mV, so that the minimal input voltage is 1V. Since VTHN is usually larger than overdrive voltage, the maximal input voltage can slightly exceed VCC. The output voltage range is between VSS+Vov15 and VCC+Vov13, so the overdrive voltage cannot exceed 0.2V to meet the requirements.   
 ![FDA_cmV](img/FDA_cmV.jpg)  
 
