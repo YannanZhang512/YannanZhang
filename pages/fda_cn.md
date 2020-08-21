@@ -83,28 +83,25 @@
 1. 当没有启动电路时，为何偏置电路能够自启动？    
 ***我认为这是由于NMOS and PMOS的泄漏电流(关态电流)并不足够小, 在此电流下，环路增益大于1, 正反馈导致此电流增加, 于是偏置电路就能自启动了。然而，虽然仿真的确显示无需启动电路也能工作，但当芯片流片之后，由于各种因素存在，我们不能保证电路同样能正常工作，因而仍旧有必要加入启动电路，确保启动电路是可靠的。***   
 2. 如何解决上述问题?    
-***My newly proposed way is to add damping resistor in the circuit. By adding damping resistors, the bias circuit will no longer start atuomatically if there is no start-up circuit. However, it will not affect the functionality of the whole circuit if a usable start-up circuit is present. But, if the start-up circuit is not a functional one, the whole circuit still cannot start up. In a word, by adding damping resistor can verify the functionality of the start-up circuit.***   
-3. An example.   
-The following figure shows a self-biasing circuit that can generate four bias voltage, but it don't have a start-up circuit. First, let's run the DC simulation of the circuit.   
+***我提出了一种方法，通过在电路中加入damping resistor，人为在关键节点引入一定阻抗，降低环路增益。damping resistor的引入并不会对电路的功能造成影响。通过增加damping resistors, 无启动电路的偏置电路无法自启动。但是这种方法不会影响电路的功能，同时也不会影响启动电路的性能，仅仅是能够测试启动电路是否可靠。***   
+3. 一个例子。   
+下图展示了一个能产生4种偏置电压的偏置电路，**但是这个电路没有启动电路**。首先我们进行直流仿真：   
 ![FDABiasExample](img/FDABiasExample.png)    
-The results are shown in the following figure, each branch has 2.72uA current, which means the circuit starts up successfully. But in fact, due to process variation and non-ideal factor, this bias circuit may not start up itself as the simulation shows.       
+直流仿真结果如下图所示, 每个支路有2.72uA的电流, **这意味着这个本没有启动电路的偏置电路竟然自己启动了**。   
 ![FDABiasNoDampingResults](img/FDABiasNoDampingResults.jpg)    
-**Then, we can add some damping resistors to make the circuit beahve as it is expected in real world. The damping resistor should be large enough so that not affect the circuit too much, 10M ohm is a reasonable value.** The following figure shows the bias circuit with damping resistors (symbols with red line).    
+**接着，对电路引入damping resistors，为的是让没有启动电路的偏置电路无法自己启动。damping resistor应该足够大，不会影响电路，通常10M的电阻就可以。** 下图展示了damping resistor的添加(红色的电阻是damping resistor)。    
 ![FDABiasExampleDamping](img/FDABiasExampleDamping.png)    
-Then, let's run the DC simulation of the circuit. The results are shown below:   
+然后，我们在加了damping resistor的电路上再次进行直流仿真，仿真结果如下图所示：   
 ![FDABiasDampingResults](img/FDABiasDampingResults.jpg)    
-**Results show that each branch only has 20pA current, which indicates the circuit don't start up. This is exactly what we expect.** Next, we can use this method to verify the functionality of the start-up circuit.   
-The following figure shows the bias circuit with start-up, and damping resistors. By adding three damping resistors, the simulation results can reliably show whether the start-up circuit is usable.   
+**仿真结果显示每支路仅仅有20pA电流, 说明这个偏置电路没有启动，同时这意味着damping resistor的引入能够使没有启动电路的偏置电路无法自启动。** 这样我们就可以用这个方法验证启动电路是否可靠。   
+下图所示电路为带有启动电路的偏置电路, 这个电路中引入了damping resistor。通过引入damping resistors, 仿真结果就能显示启动电路是否可靠。   
 ![FDABiasExampleWhole](img/FDABiasExampleWhole.png)    
-When VDD = 3.6V, the simulation results are shown below. **The results show that the start-up circuit can effectively start the circuit when VDD = 3.6V**.   
+当电源电压VDD为3.6V时, 仿真结果如下。 **仿真结果显示VDD = 3.6V时，这个电路正常启动**。   
 ![FDAWholeResult3V6](img/FDAWholeResult3V6.jpg)    
-When VDD = 2.0V, the simulation results are shown below. **The results show that the start-up circuit cannot effectively start the circuit when VDD = 2.0V**.   
+当电源电压VDD为2.0V时, 仿真结果如下。 **仿真结果显示VDD = 2.0V，这个电路不能正常启动**.   
 ![FDAWholeResult2V0](img/FDAWholeResult2V0.jpg)    
-**What if we remove the damping resistors and simulte the circuit again? The results are shown below, and it seems that results show the start-up circuit can effectively start the circuit when VDD = 2.0V, which is totally different from the prior results.**   
+**当VDD=2.0V时，如果我们把damping resistors去掉的话，仿真结果又如何？仿真结果（下图所示）显示同样的电路，当没有damping resistor的时候竟然可以启动，实际上，电源电压为2.0V时，这个电路应该是无法启动的。以上结果说明，damping resistor的引入能检测启动电路是否可靠。**   
 ![FDAWholeNoDampingResult2V0](img/FDAWholeNoDampingResult2V0.jpg)    
-***In conclusion, without the damping resistor, we cannot find the fact that the start-up circuit actually cannot start up the circuit when VDD = 2V. So the proposed method can effectively verify the functionality of the start-up circuit***   
-
-
-
-# Return to Homepage
-[Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
+ 
+# 返回主页
+[返回主页](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)
