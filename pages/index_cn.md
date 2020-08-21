@@ -36,15 +36,15 @@
 
 # 项目设计
 ### 电路设计
-+ [50ppm低功耗带隙电压基准](pages/bandgap_cn.md)
-+ [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](pages/fda_cn.md)
-+ [8位40MSPS异步架构逐次逼近比较器设计](pages/asyncSAR_cn.md)
-+ [54dB输入动态范围，500MHz带宽调幅接收机](pages/am_cn.md)
-+ [我的其他制作和DIY](pages/partofwork_cn.md)  
++ [50ppm低功耗带隙电压基准](bandgap_cn.md)
++ [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](fda_cn.md)
++ [8位40MSPS异步架构逐次逼近比较器设计](asyncSAR_cn.md)
++ [54dB输入动态范围，500MHz带宽调幅接收机](am_cn.md)
++ [我的其他制作和DIY](partofwork_cn.md)  
 
 ### PCB布线经验
-+ [LMH6401 直流 至 4.5 GHz, 全差分, 数字控制可变增益全差分放大器评估板](pages/lmh6401_cn.md)
-+ [低谐波失真高速运算放大器布线](pages/LowDistortionAmpPCB_cn.md)
++ [LMH6401 直流 至 4.5 GHz, 全差分, 数字控制可变增益全差分放大器评估板](lmh6401_cn.md)
++ [低谐波失真高速运算放大器布线](LowDistortionAmpPCB_cn.md)
 
 ### CMOS器件相关项目
 + [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa_cn.md)   
@@ -63,8 +63,8 @@
 
 # 我的电子收藏    
 作为一个电子技术爱好者，当然热衷于收藏电子元器件、电子设备、仪器仪表！   
-[我的电子收藏](pages/collections_cn.md)   
-[我收集的芯片](pages/chipcollections_cn.md)    
+[我的电子收藏](collections_cn.md)   
+[我收集的芯片](chipcollections_cn.md)    
 
 # 联系方式
 邮箱: murmures@bupt.edu.cn
