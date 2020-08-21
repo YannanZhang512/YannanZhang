@@ -38,8 +38,8 @@
 ### 电路设计
 + [50ppm低功耗带隙电压基准](bandgap_cn.md)
 + [15MHz单位增益带宽120dB开环电压增益全差分放大器设计](fda_cn.md)
-+ [8位40MSPS异步架构逐次逼近比较器设计](asyncSAR_cn.md)
-+ [54dB输入动态范围，500MHz带宽调幅接收机](am_cn.md)
++ [8位40MSPS异步架构逐次逼近模数转换器设计](asyncSAR_cn.md)
++ [54dB输入动态范围，500MHz带宽调幅接收机设计](am_cn.md)
 + [我的其他制作和DIY](partofwork_cn.md)  
 
 ### PCB布线经验
