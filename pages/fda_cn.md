@@ -36,55 +36,53 @@
 整体电流为35uA@3.6V,总功耗为126uW。     
 
 ## 输入输出共模电压范围计算
-The calculation formulae are shown below. VTHN is about 700mV, so the overdrive vlotage of M1, M3 and M4 is about 100mV, so that the minimal input voltage is 1V. Since VTHN is usually larger than overdrive voltage, the maximal input voltage can slightly exceed VCC. The output voltage range is between VSS+Vov15 and VCC+Vov13, so the overdrive voltage cannot exceed 0.2V to meet the requirements.   
+输入输出共模电压范围的计算公式如下所示， VTHN大约为700mV, M1, M3 and M4的过驱动电压大约100mV, 因而最小输入电压为1V。同时由于VTHN（阈值电压）通常大于过驱动电压，最大输入电压可以略微超过VCC。输出电压范围为VSS+Vov15到VCC+Vov13, 因此M15和M13的过驱动电压不能超过0.2V。   
 ![FDA_cmV](img/FDA_cmV.jpg)  
 
-## The Devices Parameters
-According to the prior analysis with the help of gm/ID method, the devices parameters can be calculated, which are shown as follow:   
+## 器件参数计算
+根据前述分析，利用gm/ID方法可以计算出器件的参数，如下表所示:   
 ![FDA_Parameter_Mx](img/FDA_Parameter_Mx.jpg)  
 ![FDA_Parameter_CxRx](img/FDA_Parameter_CxRx.jpg)  
 
-# Simualtion Results and Analysis
+# 仿真结果和分析
 
-+ **DC opreating point**   
++ **直流工作点**   
 ![FDA_DCop](img/FDA_DCop.jpg)  
-The DC operating points of the circuit are shown above. The real operating point of the circuit has increased about 8%, this is due to the inaccuracy of the resistor as well as channel length modulation effect. The real power dissipation is 138.6uW, which still meet the requirements.    
+整体电路的直流工作点如上表所示，仿真结果比计算值大约8%, 偏差产生的原因是沟道长度调制效应以及电阻取值存在偏差。实际器件功耗为138.6uW，仍旧满足要求。    
 
-+ **Open-loop gain**   
++ **开环电压增益**   
 ![ACResponseTesting](img/ACResponseTesting.png)  
-The open-loop ac response is tested using the above circuit.   
+开环电压增益是使用以上电路测试的。   
 ![FDA_openLoopFig](img/FDA_openLoopFig.png)  
-The above figure shows the results of the FDA's open loop characteristics. The DC open-loop gain is about 127dB, the unity gain bandwidth is 15.0284MHz. Phase margin is 76deg and gain margin is 22.4dB.    
+上图为全差分放大器开环电压增益的测试结果。开环电压增益为127dB，单位增益带宽为15.0284MHz。相位裕量为76deg，增益裕量为22.4dB.    
 
-+ **Step response**   
++ **大信号阶跃响应**   
 ![StepResponseTesting](img/StepResponseTesting.png)  
-The step response is tested using the above circuit. FDA is configured to have unity gain, and a large swing input pulse is used as stimuli. The following figure shows the step response of the FDA. The output has a 8.2V/us slew rate. Since ID8 is 2.7uA and the compensattion capacitor C1 is 606.875fF, the calculated slew rate is 8.89V/us, which is consistent with the simulation results.   
+大信号阶跃响应可以用来测试全差分放大器的压摆率，测试电路如上图所示。全差分放大器接入反馈网络，增益为1，输入端接入大信号阶跃，观察输出端响应。下图是测试结果，压摆率为8.2V/us。由于ID8为2.7uA，补偿电容C1为606.875fF, 理论计算所得的压摆率为8.89V/us, 理论计算值与实际仿真结果温和地较好。   
 ![FDA_StepRespnoseFig](img/FDA_StepRespnoseFig.png)  
 
-+ **Input common mode voltage range**   
++ **输入共模电压范围**   
 ![TestingSchInputVCM](img/InputVCMTesting.png)  
-The input common mode voltage range is tested using the above circuit. V1, E1 and E2 form a differential voltage source, it outputs a 1V differential voltage. R1~R4 are used to set the gain of FDA to 1, thus, the differential output voltage of FDA should be 1V if it works properly. The VIN and VIP pins have same voltage, their voltage are 0.5(V3 + V3). Since V3 is fixed to 1.8V, which is the output common-mode voltage, by scanning V2 and observing the differential output, we can find the input common mode voltage range. The following figure shows the simulation results, the FDA can be functional when the input common mode voltage is as low as 0.7V, but this is not the valid input common mode voltage because under this condition, M3 and M4 have already entered in to triode region. The lowest possible voltage that both M1, M2, M3 and M4 are all working in saturated region is 0.9V, so the input common mode voltage range is 0.9+VSS ~ VCC.   
+输入电压共模范围的测试方法如上图所示， V1, E1 和 E2构成差分电压源并输出1V差分电压。R1~R4为反馈网络，将增益设置为1, 当全差分放大器输入落在允许的共模电压范围内时，则输出电压应为1。根据虚短原理，VIN 和 VIP 有相同的电压，为0.5(V2 + V3). 因为V3固定为1.8V, 通过改变V2的电压并观察输出端电压变化就能够确定输入共模电压范围。下图是测试结果，从结果中看，当输入电压低至0.7V时，全差分放大器都可正常工作，但是这并非是实际的输入共模电压范围。当输入电压低到0.7V时，M3 and M4已经进入线性区。最小的输入电压应能确保M1, M2, M3 和 M4都工作在饱和区，约为0.9V所以实际的输入共模电压范围为0.9+VSS ~ VCC。   
 ![FDA_VinCMFig](img/FDA_VinCMFig.png)  
 
-+ **Output common mode voltage range**   
++ **输出共模电压范围**   
 ![OutputVCMTesting](img/OutputVCMTesting.png)  
-The output common mode voltage range is tested using the above circuit. V1 changes from -3.6V to +3.6V, the differential output is the output common-mode voltage range. The maximal output voltage range is determined by the overdrive voltage of M13, M14, M15 and M16. The overdrive of M13 and M14 are about 119mV, while M15 and M16's overdrive voltage are 90mV. That means the maximal output voltage range is VCC-0.12 ~ VSS+0.09. The simulation result is shown below, and it comply with analysis.   
+输出共模电压范围的测试电路如上图所示。V1从-3.6V变化到+3.6V, 则输出差分电压就是输出共模电压范围。输出共模电压范围由M13, M14, M15 和 M16的过驱动电压决定。 M13和M14的过驱动电压为119mV，M15 和 M16的过驱动电压为90mV。因而理论的输出共模电压范围为VCC-0.12 ~ VSS+0.09，仿真结果如下图所示，可以看到仿真结果与理论计算值吻合较好。   
 ![FDA_VoCMFig](img/FDA_VoCMFig.png)   
 
-+ **CMRR and CMFB Response**   
++ **共模抑制比与共模反馈稳定性**   
 ![CMRRTesting](img/CMRRTesting.png)  
-The CMRR is tested using the above circuit.   
+共模抑制比的测试方法如上图所示。同时其测试结果如下图所示：      
 ![FDA_CMRRFig](img/FDA_CMRRFig.png)   
 ![FDA_CMStbFig](img/FDA_CMStbFig.png)   
 
-# Conclusion
-
-# Designing Experience
-+ **How to effectively simulate the functionality of a start-up circuit**   
-Whether a start-up circuit is functional is of great importance. If the start-up circuit cannot function as what we expected, then it may cause the whole system to fail. During the designing process, I found even if without a start-up circuit, when I ran a DC simulation, the bias circuit can exhibit the right behaviour. Then I proposed a better way to do the simulation, and by adopting this method in many experiments, I found it can verify the functionality of start-up circuit effectively.   
-1. Why a bias circuit can exhibit the right behaviour even if without a start-up circuit?    
-***I think this is because the NMOS and PMOS's leaking current (off-state current) are not small enough, the gain of the loop is larger than 1, so the positive feedback causes the current increase, then the circuit can start-up by itself.***   
-2. How to solve the problem?    
+# 设计经验
++ **如何有效地验证启动电路的可靠性**   
+启动电路的可靠性决定电路设计是否成功，如果启动电路不能在任何情况下都有效的启动电路，则意味着电路面临失效问题。在本项目的设计过程中，我发现即使不使用启动电路，对电路进行直流仿真仍然可以得到正确的结果，瞬态仿真也同样如此。我猜想由于在关断状态下，MOS仍存在很小的漏电流，此微弱的漏电流在正反馈的作用下会增加，最终导致电路稳定。为了改进这个问题，我提出了一种仿真方法，通过引入damping resistor人为在关键节点引入一定阻抗，使未启动状态下的启动电路正反馈增益小于1，这样微弱的漏电流不足以启动整个电路。经过我的反复验证，我发现这种方法能够有效验证启动电路的可靠性，能够检验启动电路设计是否合理。   
+1. 当没有启动电路时，为何偏置电路能够自启动？    
+***我认为这是由于NMOS and PMOS的泄漏电流(关态电流)并不足够小, 在此电流下，环路增益大于1, 正反馈导致此电流增加, 于是偏置电路就能自启动了。然而，虽然仿真的确显示无需启动电路也能工作，但当芯片流片之后，由于各种因素存在，我们不能保证电路同样能正常工作，因而仍旧有必要加入启动电路，确保启动电路是可靠的。***   
+2. 如何解决上述问题?    
 ***My newly proposed way is to add damping resistor in the circuit. By adding damping resistors, the bias circuit will no longer start atuomatically if there is no start-up circuit. However, it will not affect the functionality of the whole circuit if a usable start-up circuit is present. But, if the start-up circuit is not a functional one, the whole circuit still cannot start up. In a word, by adding damping resistor can verify the functionality of the start-up circuit.***   
 3. An example.   
 The following figure shows a self-biasing circuit that can generate four bias voltage, but it don't have a start-up circuit. First, let's run the DC simulation of the circuit.   
