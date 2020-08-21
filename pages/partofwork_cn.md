@@ -42,41 +42,41 @@
 ***下图中是布过的PCB, 包含锁相环, 射频放大器, 混频器, 调幅接收机前端。***   
 ![PCB_Layout](img/PCBs.jpg)   
 
-## A 2.4G Wireless Transmitter and Receiver
-***These are 2.4GHz wireless transmitter and receiver, it can be used to control remote devices or transmit and receive data.***
+## 2.4G 无线发送和接收模块
+***下图所示是一对2.4GHz无线发送接收模块，它们对外接口为串口，可以远程传输命令。***
 ![2_4GWirelessTransmitterandReceiver](img/2_4GWirelessTransmitterandReceiver.jpg)   
 
-## A Temperature Regulator
-***The temperature regulator uses a DS18B20 as a sensor, it have a keyboard and socket. When the temperature reaches the limit, the regulator will cut off the power supply and until the temperature falls below the limit.***   
+## 温度控制器
+***本温度控制器采用DS18B20作为温度传感器, 具有一个键盘用来进行交互，同时有一个插座用来控制电器.***   
 ![TemperatureRegulator_1](img/TemperatureRegulator_1.jpg)  
 ![TemperatureRegulator_2](img/TemperatureRegulator_2.jpg)  
 
-## Signal Generator   
-***This is a simple signal generator, I made it when I was a sophomore. It can output sinusoidal wave, square wave and triangular wave with frequency range from 0.01Hz ~ 100KHz. The signal generator features DDS to generate signal, MSP430F5529 is used to control two pieces of DAC0832.***   
+## 信号发生器   
+***这是我在大二时做的一个简易信号发生器. 它能输出正弦波、三角波、方波，频率范围从0.01Hz ~ 100KHz. 本信号源采用软件DDS, MSP430F5529控制两片DAC0832从而实现信号输出.***   
 ![Signal_Generator_1](img/signal_generator_1.jpg)  
 ![Signal_Generator_2](img/signal_generator_2.jpg)  
 
-## LC Meter   
-***The LC meter can test inductor with inductance from 1uH to 10H, and capacitor with capacitance from 1pF to 1F.***   
+## 电感电容表   
+***下图所示的电感电容表能测量1uH-10H的电感量和1pF to 1F的电容.***   
 ![LC_Meter](img/LC_Meter.jpg)     
 
-## Resistance Meter  
-***The Resistance Meter can test resistor with resistance from 1ohm to 10Mohm.***   
+## 电阻表  
+***这个电阻表能够测试阻值为1ohm to 10Mohm的电阻.***   
 ![Resistance_Meter](img/Resistance_Meter.jpg)     
 
-## Network Analyzer 1  
-***This Network Analyzer is used to test the frequency response of a system. The testing frequency range is 1Hz to 1MHz.***   
+## 网络分析仪 1  
+***这个网络分析仪能够简单测量被测网络的频率特性. 测试频率从1Hz 到 1MHz.***   
 ![Network_Analyzer_1](img/Network_Analyzer_1.jpg)    
 
-## Network Analyzer 2  
-***This Network Analyzer is used to test the frequency response of a system. This one is different from the prior one because it must be connected to an oscilloscope to see the results.***   
+## 网络分析仪 2  
+***这个网络分析仪能够简单测量被测网络的频率特性，但需要使用示波器作为显示设备. 测试频率从1KHz 到 100KHz.***   
 ![Network_Analyzer_2](img/Network_Analyzer_2.jpg)   
 
-## Dual Power Supply Module   
-***This power supply can output up to ±20V@1A.***   
+## 双电源供电模块   
+***下图所示双电源供电模块能输出 ±20V@1A.***   
 ![Dual_Power_Supply_Module](img/Dual_Power_Supply_Module.jpg)     
 
-## Others   
+## 其他制作   
 ![Work_Part_1](img/work_part1.jpg)  
 
 ## 回到主页
