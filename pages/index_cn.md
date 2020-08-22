@@ -47,8 +47,8 @@
 + [低谐波失真高速运算放大器布线](LowDistortionAmpPCB_cn.md)
 
 ### CMOS器件相关项目
-+ [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa_cn.md)   
-+ [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa_cn.md)   
++ [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](pages/csgaa.md)   
++ [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](pages/cigaa.md)   
 ***以上两个项目为科研项目，受863项目“14纳米以下技术代硅基新型器件及关键工艺技术研究”和 “中央高校基本科研业务费专项资金(2019PTB-016)”支持.***   
 
 ### 嵌入式系统
