@@ -56,8 +56,8 @@
 # 我录制的视频教程
 以下是我录制的一些视频教程，录制这些教程的初衷是为了更好的带领北邮电子工程学院的学生参加全国大学生电子设计竞赛，他们作为初学者，需要一些捷径以便更快入门。在这些教程中，我尝试用一种直白而且实用的方式讲述基本知识，我曾经用这些教程培训电子工程学院的同学参加全国大学生电子设计竞赛，所获参赛成绩是我校历史最好成绩，同时这些视频在北京邮电大学电子工程学院广为传播，帮助众多学弟学妹实现快速入门。
 
-+ [模拟数字转换器的基本原理与使用方法](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
-+ [集成运算放大器的基本原理与应用](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
++ [模拟数字转换器的基本原理与使用方法](https://www.bilibili.com/video/BV1fD4y127Hj)   
++ [集成运算放大器的基本原理与应用](https://www.bilibili.com/video/BV1DV411U7eK)   
 + [MSP430G2553单片机编程快速入门](https://www.bilibili.com/video/BV1Rf4y197Uh/)   
 
 # 我的电子收藏    
