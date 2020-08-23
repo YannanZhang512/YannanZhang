@@ -54,12 +54,14 @@ GT是门控信号，用来控制始终产生，当GT为低时，I2的输出为�
 ## 开关方案
 ### 开关电路
 ![Fig_19](img/SARFig_19.jpg)    
+当SWM为1时，电容阵列将被连接到共模电压VCM；当SWP为0时，电容阵列将被连接到基准电压VR+；当SWN为1时，电容阵列将被连接到基准电压VR-。在同一时刻，电容阵列只能被连接到VCM，VR+，VR-中的一个或者断开。   
 ### 开关逻辑
 ![Fig_20](img/SARFig_20.jpg)    
 Fig. 20(a)是用来切换共模电压的开关逻辑电路，fig.20(b) 和 (c)分别是控制切换基准电压的开关逻辑电路。   
-
+当ADC处于采样状态时，电容阵列应从VCM，VR+，VR-断开，此时SAMPLE=1，CONVERT=0，BitSelect=0，COMP_END=1。当ADC采样结束还未进行转换之前，SAMPLE=0，CONVERT=0，电容阵列应连接到VCM，此时准备进行第一次比较。当ADC开始进行转换后，根据BitSelect，COMP_END，Q，QB的状态产生控制信号。Fig.20 (a)所示开关逻辑用于控制电容阵列连接VCM，fig.20 (b)和fig.20 (c)分别用于控制电容阵列切换连接基准电压VR+和VR-。
 # 仿真结果与分析
-
+**由于我的Cadence运行在虚拟机上，另外电脑内存也不大，对于较长的仿真无能为力，因此只能仿真短暂的瞬态响应。仿真结果如下图所示（这里使用了理想DA将AD转换的结果再转换为模拟信号），从仿真结果上看，本项目所设计的异步架构SAR ADC达到了设计目的。**   
+![SAR_1MHz_Waveform](img/SAR_1MHz_Waveform.png)   
 # 返回主页
 [返回主页](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)
 
