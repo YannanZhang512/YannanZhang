@@ -58,7 +58,7 @@
 
 + [模拟数字转换器的基本原理与使用方法](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
 + [集成运算放大器的基本原理与应用](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
-+ [MSP430G2553单片机编程快速入门](https://www.youtube.com/playlist?list=PLGBDFkRTcisHyLQ5KSV0SdlaFIZCimGQY)   
++ [MSP430G2553单片机编程快速入门](https://www.bilibili.com/video/BV1Rf4y197Uh/)   
 
 # 我的电子收藏    
 作为一个电子技术爱好者，当然热衷于收藏电子元器件、电子设备、仪器仪表！   
