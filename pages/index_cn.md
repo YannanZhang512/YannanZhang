@@ -63,7 +63,6 @@
 # 我的电子收藏    
 作为一个电子技术爱好者，当然热衷于收藏电子元器件、电子设备、仪器仪表！   
 [我的电子收藏](collections_cn.md)   
-[我收集的芯片](chipcollections_cn.md)    
 
 # 联系方式
 邮箱: murmures@bupt.edu.cn
