@@ -16,9 +16,13 @@
 *2016年获全国大学生电子设计竞赛北京赛区一等奖*   
 
 # 学术成果
-[1] [K. Han, **Y. Zhang** and Z. Deng, "A Simulation Study of Gate-All-Around Nanowire Transistor With a Core-Substrate," in IEEE Access, vol. 8, pp. 62181-62190, 2020, doi: 10.1109/ACCESS.2020.2983724.](https://ieeexplore.ieee.org/document/9049338)   
-[2] [**Zhang, Y.**; Han, K.; Li, A.J. A Simulation Study of a Gate-All-Around Nanowire Transistor with a Core–Insulator. Micromachines 2020, 11, 223.](https://www.mdpi.com/2072-666X/11/2/223?type=check_update)   
-*两篇文章中，我均位列学生作者第一位*
+[1] [K. Han, **Y. Zhang** and Z. Deng, "A Simulation Study of Gate-All-Around Nanowire Transistor With a Core-Substrate," in IEEE Access, vol. 8, pp. 62181-62190, 2020, doi: 10.1109/ACCESS.2020.2983724.](https://ieeexplore.ieee.org/document/9049338)***SCI 二区***   
++ 本文提出了一种基于传统环栅纳米管器件（GAA MOSFET）的新型环栅MOSFET，其主要特点为具有内嵌的核心衬底结构，能够有效的抑制关态电流，使静态功耗降低1倍以上。同时新型器件的性能不易受工艺偏差影响。   
++ 本人提出了本文之中所涉创新点、设计并完成了实验、收集数据并撰写论文。   
+[2] [**Zhang, Y.**; Han, K.; Li, A.J. A Simulation Study of a Gate-All-Around Nanowire Transistor with a Core–Insulator. Micromachines 2020, 11, 223.](https://www.mdpi.com/2072-666X/11/2/223?type=check_update)***SCI 四区***   
++ 本文提出了一种基于传统环栅纳米管器件（GAA MOSFET）的新型环栅MOSFET，其主要特点为具有内嵌的绝缘核心结构，能够有效的抑制关态电流，使静态功耗降低50%以上。同时绝缘核心材料可以更换以降低器件栅电容，进而可提升10%工作频率。   
++ 本人提出了本文之中所涉创新点、设计并完成了实验、收集数据并撰写论文。  
+***两篇文章中，我均位列学生作者第一位。K. Han为我的硕士导师。***
 
 # 研究兴趣
 + 高开关比、低亚阈值斜率新型硅基CMOS器件。
@@ -30,7 +34,7 @@
 2017年12月 - 2019年1月, 中国北京  
 *14纳米以下技术代硅基新型器件及关键工艺技术研究，863项目，2015AA016501*   
 *以突破14纳米以下尺度器件的功耗瓶颈为目标，以新一代FinFET器件为出发点，在新结构、新原理、新材料和新工艺研究的基础上，获得未来器件发展趋势，提出新器件实现方案并开展相关工艺技术研究。* 
-*提出两种基于环栅纳米线晶体管的新型器件结构，并提出了兼容现有CMOS加工工艺的加工流程，新器件可降低50%静态功耗，其性能不易受工艺偏差影响。*   
+*提出两种基于环栅纳米器件的新型器件结构，并提出了兼容现有CMOS加工工艺的加工流程，新器件可降低50%静态功耗，其性能不易受工艺偏差影响。*   
 *发表两篇SCI文章*
 
 + **北京邮电大学**     
@@ -57,7 +61,7 @@
 + [A High Ion/Ioff and Low Performance Degradation Gate-All-Around Nanowire Transistor With a Core-Substrate](csgaa.md)   
 + [A Low Off-state Current Gate-All-Around Nanowire Transistor With a Core-Insulator](cigaa.md)   
 
-# 个人兴趣
+# 个人业余爱好
 ## 电子制作及DIY
 + [我的电子制作和DIY](partofwork_cn.md)  
 
