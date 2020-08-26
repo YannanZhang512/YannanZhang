@@ -78,6 +78,8 @@
 + [集成运算放大器的基本原理与应用](https://www.bilibili.com/video/BV1DV411U7eK)   
 + [MSP430G2553单片机编程快速入门](https://www.bilibili.com/video/BV1Rf4y197Uh/)   
 
+# 照片
++ [照片](photo_cn.md)  
 
 # 联系方式
 邮箱: murmures@bupt.edu.cn
