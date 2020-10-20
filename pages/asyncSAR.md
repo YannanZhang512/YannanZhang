@@ -56,12 +56,14 @@ The binary capacitor network used in this project is shown in Fig. 18. The small
 ## Switching Scheme
 ### Switching Circuit
 ![Fig_19](img/SARFig_19.jpg)    
+When SWM is 'high', the capacitor array will be connected to common-mode voltage; when SWP is 'low', the capacitor array will be connected to positive reference voltage; when SWN is high, the capacitor array will be connected to negative reference voltage. The capacitor array can be connected to one voltage or just disconnnected.    
 ### Switching Logic
 ![Fig_20](img/SARFig_20.jpg)    
 Fig. 20(a) shows the switching logic used to control the capacitor array connect to common-mode voltage. Fig. 20(b) and (c) show the switching logic used to control the capacitor array connect to reference voltage.   
-
+When ADC is in the sample mode (SAMPLE=1 and CONVERT=0, BitSelect=0, COMP_END=1), the capacitor array should be disconnected from common-mode voltage, positive reference voltage, negative reference voltage. After this, SAMPLE=0, CONVERT=0 and the capacitor array should be connected to common-mode voltage. When ADC is in converting mode, the controlling signal is generated.    
 # Simulation Results
-
+**My Cadence is running on a virtual machine and limited by my computer's performance, I can only do short transient simulation. The result is shown below and it functions well.**   
+![SAR_1MHz_Waveform](img/SAR_1MHz_Waveform.png)   
 
 # Return to Homepage
 [Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
