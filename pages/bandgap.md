@@ -22,7 +22,7 @@ The output voltage Vref and temperature coefficient of Vref can be expressed as 
 The last term of equation 2 is the effect of Resistor's temperature coefficient. In the design, I use HRP poly resistor, its temperature coefficient is shown as follow:   
 ![BandgapResistorTco](img/BandgapResistorTco.jpg)   
 
-In order to gain zero temperature coefficient, using the data provided,  the value of resistors should have following relation:   
+In order to gain lowest temperature coefficient, using the data provided,  the value of resistors should have following relation:   
 ![Bandgap_Resistor](img/Bandgap_Resistor.jpg)   
 
 Since the dc operating point of T1 and T2 are set to 10uA, and the current are described as follow:   
@@ -34,15 +34,13 @@ Then the value of R1 is about 5.4065k. A HRP poly resistor with 2 segments, W=2u
 # Simulation Results and Analysis   
 ## The relation between Vref and Temperature
 ![VoutVSTemperature](img/VoutVSTemperature.jpg)   
-From the results, we can observe that the Vout (Vref) is rather stable when temperature changes except when VDD = 5V. The Vout changes with the changing of power supply voltage. This is because when VDD changes, the open-loop gain of the amplifier also changes since the dc operating points is changing with VDD (I discussed this in the designing experience section). When VDD is increasing from 3V, the open-loop gain of the amplifier is increasing, then the Vout increases towards the ideal value of the bandgap voltage. The open-loop gain reaches peak when VDD is 3.5V~4.0V, and then decreases when VDD continues to increase. The changing of open-loop gain changes the input offset voltage, so the output voltage changes.   
-
-# Conclusion   
+From the results, we can observe that the Vout (Vref) is relatively stable when temperature changes except when VDD = 5V. The Vout changes with the changing of power supply voltage. This is because when VDD changes, the open-loop gain of the amplifier also changes since the dc operating points is changing with VDD (I discussed this in the designing experience section). When VDD is increasing from 3V, the open-loop gain of the amplifier is increasing, then the Vout increases towards the ideal value of the bandgap voltage. The open-loop gain reaches peak when VDD is 3.5V~4.0V, and then decreases when VDD continues to increase. The changing of open-loop gain changes the input offset voltage, so the output voltage changes.   
 
 # Designing Experience   
 + ***The temperature coefficient of Vbe is not always about -2mV/K***   
 The Vbe can be expressed as follow:   
 ![VbeFormula](img/VbeFormula.jpg)  
-From the formula, we can find that the temperature coefficient of Vbe depend on process and current. Using SMIC's 130um process, I simulated the Vbe vs Temperature, the results are shown below:   
+From the formula, we can find that Vbe's temperature coefficient depend on process and current. Using SMIC's 130um process, I simulated the Vbe vs Temperature, the results are shown below:   
 ![Vbe](img/Vbe.jpg)  
 ***The temperature coefficient of Vbe can be different when different current pass through the BE junction, as shown in the results.***   
 
@@ -66,3 +64,4 @@ The previous version of the start-up circuit is shown below (without M27). This 
 ![BandgapStartupPreAna](img/BandgapStartupPreAna.png)   
 
 # Return to Homepage   
+[Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
