@@ -57,3 +57,4 @@ One important concern about the newly proposed structure is its parasitic capaci
 We have studied the device performance of our proposed CIGAA nanowire using 3D TCAD simulation. Due to CIGAA's lowered off-state current enabled by Core-Insulator, it shows high on-state current, low off-state current, low subthreshold swing and high switching ratio. CIGAA has the potential to be used to fabricate low-power systems. Thus, CIGAA nanowire is a promising candidate to extend CMOS scaling roadmap and future low power CMOS devices.
 
 # Return to Homepage
+[Return to Homepage](https://yannanzhang512.github.io/YannanZhang/)
