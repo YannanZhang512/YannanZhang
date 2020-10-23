@@ -3,7 +3,6 @@
 [中文版](https://yannanzhang512.github.io/YannanZhang/pages/index_cn.html)    
 
 # About me
-![banner](img/banner.jpg)   
 **Hello, My name is Yannan Zhang. I'm from China. I become interested in Electronics when I was a small child. My grandfather was an electrician when I was young. He stored all his electronic components in a drawer. One day, I found all that shiny small things and smashed them using a hammer. Since then, my fate was destined.** 
 
 # Education
@@ -67,7 +66,7 @@ Once I was a high school student, I was attracted by the electronic world. I wan
 
 + [An introduction to the basic concept and usage of Digital to Analog Converter.](https://www.youtube.com/playlist?list=PLGBDFkRTcisEuyedRHiHl547lP2yFqDW9)   
 + [An introduction to the basic concept and usage of Opeartional Amplifier.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHKM1OWy6qZNCFKBaAgddp3)   
-+ [Programming TI's MSP430G2553 launchpad using C language.](https://www.youtube.com/playlist?list=PLGBDFkRTcisHyLQ5KSV0SdlaFIZCimGQY)   
++ [Programming TI's MSP430G2553 launchpad using C language.](https://www.bilibili.com/video/BV1Rf4y197Uh)   
 
 # My Electronic Collection    
 I like collecting things related to electronics such as components, instruments, devices. I collect them and use them, that's a lot of fun!   
